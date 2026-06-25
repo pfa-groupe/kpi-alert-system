@@ -1,0 +1,1215 @@
+purchase_year,purchase_month,product_category_name_english,ca,volume,taux_annulation,under_performance,niveau,alerts_str
+2016,9,health_beauty,134.97,3,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2016,10,air_conditioning,1049.3,7,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,audio,156.99,2,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,auto,333.37,6,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,baby,1041.18,10,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,bed_bath_table,478.99,8,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,computers_accessories,669.02,12,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,consoles_games,139.49,3,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,cool_stuff,647.1,6,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,diapers_and_hygiene,134.9,1,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,electronics,107.99,1,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,fashio_female_clothing,54.9,1,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,fashion_bags_accessories,508.3,9,0.1111111111111111,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,fashion_male_clothing,24.9,1,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,fashion_shoes,29.99,1,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,fixed_telephony,704.88,5,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,food,79.9,1,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,furniture_decor,4250.56,62,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,garden_tools,389.88,3,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,health_beauty,3100.15,40,0.025,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,housewares,1287.0700000000002,12,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,industry_commerce_and_business,359.6,4,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,market_place,915.29,11,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,office_furniture,610.89,5,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,perfumery,3229.5,25,0.08,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,pet_shop,309.70000000000005,3,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,sports_leisure,985.6500000000001,16,0.0625,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,telephony,228.29,8,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,toys,2366.8,21,0.047619047619047616,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,10,watches_gifts,29.9,1,0.0,True,3,CA faible | Taux d'annulation élevé | Faible volume de commandes
+2016,12,fashion_bags_accessories,10.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,agro_industry_and_commerce,65.97,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,air_conditioning,663.7,4,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,auto,3283.05,28,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,baby,2245.9,35,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,bed_bath_table,3804.36,46,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,books_general_interest,234.89,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,computers_accessories,1925.14,30,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,consoles_games,2494.86,17,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,cool_stuff,2764.48,29,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,dvds_blu_ray,29.8,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,electronics,617.0,11,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,fashio_female_clothing,77.3,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,fashion_bags_accessories,1671.97,35,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,fashion_male_clothing,126.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,fashion_shoes,34.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,fashion_underwear_beach,137.25,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,fixed_telephony,677.12,22,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,food,42.82,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,furniture_bedroom,73.2,8,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,furniture_decor,12000.75,173,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,furniture_living_room,1241.8999999999999,10,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,garden_tools,3536.9500000000003,44,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,health_beauty,5215.4400000000005,65,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,home_appliances_2,451.78,4,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,home_comfort_2,72.8,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,housewares,1908.69,26,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,kitchen_dining_laundry_garden_furniture,110.0,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,luggage_accessories,492.5,5,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,market_place,414.14,5,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,music,19.8,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,office_furniture,1158.35,8,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,perfumery,2203.4,26,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,pet_shop,799.12,14,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,security_and_services,183.29,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,small_appliances,444.79,4,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,sports_leisure,4887.25,66,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,stationery,967.1899999999999,12,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,telephony,755.94,22,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,toys,3358.23,37,0.0,True,2,CA faible | Faible volume de commandes
+2017,1,watches_gifts,689.4,4,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,agro_industry_and_commerce,224.84,7,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,air_conditioning,1715.3,10,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,audio,163.8,5,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,auto,7502.9800000000005,74,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,baby,2047.58,31,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,bed_bath_table,15108.24,155,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,books_general_interest,772.71,8,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,books_technical,159.0,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,cine_photo,59.0,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,computers_accessories,5959.22,95,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,consoles_games,1151.99,10,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,construction_tools_construction,336.79,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,cool_stuff,6060.98,55,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,dvds_blu_ray,14.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,electronics,1218.85,19,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,fashio_female_clothing,363.9,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,fashion_bags_accessories,2170.31,36,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,fashion_male_clothing,545.95,6,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,fashion_shoes,107.05,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,fashion_underwear_beach,396.96999999999997,8,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,fixed_telephony,759.23,22,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,food,676.73,8,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,furniture_decor,17936.76,249,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,furniture_living_room,1885.74,17,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,garden_tools,4849.72,57,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,health_beauty,10120.11,130,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,home_appliances,740.9,7,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,home_appliances_2,15.99,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,home_confort,414.66,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,home_construction,695.6,4,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,housewares,4071.7400000000002,66,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,industry_commerce_and_business,119.0,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,kitchen_dining_laundry_garden_furniture,139.9,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,luggage_accessories,1659.19,20,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,market_place,1234.48,19,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,musical_instruments,633.56,7,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,office_furniture,7628.21,57,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,perfumery,2771.88,34,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,pet_shop,2904.88,38,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,small_appliances,2802.88,22,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,sports_leisure,11709.0,141,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,stationery,1746.6,17,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,tablets_printing_image,792.0,8,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,telephony,5646.34,103,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,toys,4494.66,61,0.0,True,2,CA faible | Faible volume de commandes
+2017,2,watches_gifts,3119.35,23,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,agro_industry_and_commerce,81.99000000000001,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,air_conditioning,863.9,12,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,art,174.6,4,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,audio,1134.77,14,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,auto,7397.13,67,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,baby,3242.29,41,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,bed_bath_table,24005.47,277,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,books_general_interest,2533.96,24,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,books_technical,75.0,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,computers_accessories,12491.83,159,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,consoles_games,3202.27,32,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,construction_tools_construction,38.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,cool_stuff,10271.13,98,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,drinks,463.87,5,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,dvds_blu_ray,44.7,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,electronics,2655.02,34,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,fashio_female_clothing,19.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,fashion_bags_accessories,4146.46,64,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,fashion_male_clothing,580.8,9,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,fashion_shoes,1220.1,13,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,fashion_sport,39.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,fashion_underwear_beach,394.14,6,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,fixed_telephony,1333.45,20,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,food,2412.66,21,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,food_drink,85.8,4,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,furniture_decor,20083.68,307,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,furniture_living_room,2565.1,22,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,garden_tools,8267.16,128,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,health_beauty,14762.5,185,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,home_appliances,313.3,10,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,home_appliances_2,13.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,home_comfort_2,342.88,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,home_confort,1126.4,10,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,home_construction,591.96,10,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,housewares,12906.960000000001,196,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,industry_commerce_and_business,238.0,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,kitchen_dining_laundry_garden_furniture,113.98,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,luggage_accessories,5535.01,37,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,market_place,1518.69,16,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,music,27.99,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,musical_instruments,134.68,6,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,office_furniture,9334.39,71,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,perfumery,9030.31,74,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,pet_shop,3237.16,38,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,signaling_and_security,75.0,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,small_appliances,2198.08,19,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,sports_leisure,15278.19,176,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,stationery,4905.62,54,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,tablets_printing_image,495.0,5,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,telephony,6061.13,159,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,toys,7302.02,93,0.0,True,2,CA faible | Faible volume de commandes
+2017,3,watches_gifts,5983.04,59,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,air_conditioning,1125.4,13,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,art,119.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,audio,942.2,11,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,auto,8232.63,70,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,baby,3930.55,50,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,bed_bath_table,22352.89,270,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,books_general_interest,923.38,12,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,books_imported,19.99,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,books_technical,75.0,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,christmas_supplies,69.0,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,cine_photo,118.0,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,computers_accessories,9691.06,119,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,consoles_games,615.39,12,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,cool_stuff,11666.6,102,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,costruction_tools_garden,310.40999999999997,6,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,dvds_blu_ray,14.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,electronics,2407.45,44,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,fashio_female_clothing,64.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,fashion_bags_accessories,3095.9,48,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,fashion_male_clothing,366.89,5,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,fashion_shoes,1526.5,23,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,fashion_sport,189.77999999999997,4,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,fashion_underwear_beach,92.89,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,fixed_telephony,156.83,5,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,food,491.3,8,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,food_drink,47.9,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,furniture_bedroom,628.98,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,furniture_decor,13659.68,178,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,furniture_living_room,948.64,9,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,furniture_mattress_and_upholstery,109.4,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,garden_tools,8075.25,93,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,health_beauty,10527.69,152,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,home_appliances,499.4,10,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,home_comfort_2,12.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,home_confort,2012.1,16,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,home_construction,362.49,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,housewares,10909.62,166,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,kitchen_dining_laundry_garden_furniture,439.4,8,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,la_cuisine,24.0,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,luggage_accessories,6770.4,47,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,market_place,1211.58,15,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,music,59.8,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,musical_instruments,542.5,6,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,office_furniture,7499.33,54,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,perfumery,5198.82,57,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,pet_shop,4753.01,48,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,signaling_and_security,128.06,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,small_appliances,925.99,10,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,sports_leisure,15680.52,188,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,stationery,2797.6400000000003,31,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,tablets_printing_image,1112.88,11,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,telephony,5054.26,135,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,toys,8739.61,104,0.0,True,2,CA faible | Faible volume de commandes
+2017,4,watches_gifts,8710.4,77,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,agro_industry_and_commerce,119.98,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,air_conditioning,914.87,7,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,art,428.25,5,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,arts_and_craftmanship,21.99,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,audio,2081.1800000000003,17,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,auto,10572.67,105,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,baby,7633.74,100,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,bed_bath_table,30933.74,358,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,books_general_interest,1841.5700000000002,20,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,books_technical,262.0,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,cine_photo,59.0,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,computers_accessories,25495.77,277,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,consoles_games,2018.2,28,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,construction_tools_construction,99.99,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,cool_stuff,26982.5,230,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,costruction_tools_garden,247.54,5,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,costruction_tools_tools,74.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,drinks,90.0,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,dvds_blu_ray,89.6,4,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,electronics,3677.7400000000002,59,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,fashio_female_clothing,367.5,4,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,fashion_bags_accessories,4816.1,99,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,fashion_childrens_clothes,110.0,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,fashion_male_clothing,608.9,4,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,fashion_shoes,970.64,20,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,fashion_sport,124.84,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,fashion_underwear_beach,283.5,7,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,fixed_telephony,445.83000000000004,9,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,food,387.9,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,food_drink,345.49,12,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,furniture_bedroom,929.97,6,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,furniture_decor,19420.0,263,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,furniture_living_room,2834.75,28,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,furniture_mattress_and_upholstery,195.9,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,garden_tools,11775.67,123,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,health_beauty,16346.15,229,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,home_appliances,1912.79,28,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,home_appliances_2,866.15,6,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,home_confort,3319.07,30,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,home_construction,369.9,5,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,housewares,19955.22,298,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,industry_commerce_and_business,139.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,kitchen_dining_laundry_garden_furniture,411.48,7,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,la_cuisine,193.0,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,luggage_accessories,8924.02,66,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,market_place,1864.33,20,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,musical_instruments,749.02,11,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,office_furniture,7413.45,53,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,perfumery,14416.74,127,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,pet_shop,5474.6900000000005,71,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,signaling_and_security,508.85,4,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,small_appliances,1045.64,11,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,sports_leisure,25410.85,295,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,stationery,5308.18,63,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,tablets_printing_image,624.99,6,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,telephony,6739.42,208,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,toys,16284.56,182,0.0,True,2,CA faible | Faible volume de commandes
+2017,5,watches_gifts,11374.94,94,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,air_conditioning,1284.53,10,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,art,200.3,4,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,audio,1671.0,11,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,auto,10014.29,95,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,baby,5721.75,73,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,bed_bath_table,32879.33,366,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,books_general_interest,1922.18,20,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,books_imported,99.0,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,books_technical,145.9,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,christmas_supplies,184.7,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,cine_photo,79.0,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,computers_accessories,18522.65,232,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,consoles_games,984.57,19,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,construction_tools_construction,376.37,8,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,cool_stuff,19266.84,174,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,costruction_tools_garden,434.69000000000005,4,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,drinks,49.99,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,dvds_blu_ray,126.69,4,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,electronics,2060.04,41,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,fashio_female_clothing,154.8,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,fashion_bags_accessories,5417.150000000001,78,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,fashion_childrens_clothes,110.0,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,fashion_male_clothing,519.79,9,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,fashion_shoes,929.4799999999999,18,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,fashion_sport,470.5,5,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,fashion_underwear_beach,3.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,fixed_telephony,548.41,11,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,food,149.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,food_drink,57.4,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,furniture_bedroom,308.99,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,furniture_decor,14808.77,225,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,furniture_living_room,1417.5,14,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,garden_tools,8172.9,96,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,health_beauty,15637.44,224,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,home_appliances,2507.19,43,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,home_appliances_2,1213.87,6,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,home_comfort_2,12.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,home_confort,1920.2,15,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,home_construction,1397.3,7,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,housewares,21894.1,319,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,industry_commerce_and_business,276.97,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,kitchen_dining_laundry_garden_furniture,374.8,4,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,luggage_accessories,7482.39,58,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,market_place,1258.95,16,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,music,79.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,musical_instruments,901.0,11,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,office_furniture,7279.13,50,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,perfumery,15767.39,126,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,pet_shop,4843.58,62,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,signaling_and_security,134.0,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,small_appliances,1155.21,13,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,small_appliances_home_oven_and_coffee,71.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,sports_leisure,18749.99,247,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,stationery,2873.68,36,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,tablets_printing_image,594.0,6,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,telephony,4961.7699999999995,153,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,toys,12018.9,147,0.0,True,2,CA faible | Faible volume de commandes
+2017,6,watches_gifts,10373.0,95,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,air_conditioning,363.7,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,art,386.75,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,arts_and_craftmanship,129.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,audio,673.69,6,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,auto,8937.87,109,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,baby,11261.54,117,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,bed_bath_table,61016.36,563,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,books_general_interest,1292.4,13,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,books_technical,199.0,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,cds_dvds_musicals,225.0,5,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,christmas_supplies,65.09,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,computers_accessories,27029.79,301,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,consoles_games,1951.25,39,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,construction_tools_construction,549.4399999999999,6,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,cool_stuff,21751.63,200,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,costruction_tools_garden,347.58000000000004,8,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,drinks,273.97,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,dvds_blu_ray,33.8,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,electronics,5821.24,91,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,fashio_female_clothing,310.70000000000005,4,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,fashion_bags_accessories,4664.21,85,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,fashion_male_clothing,719.99,9,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,fashion_shoes,1283.02,19,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,fashion_sport,69.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,fashion_underwear_beach,274.8,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,fixed_telephony,218.73,9,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,food,584.1600000000001,7,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,food_drink,168.2,8,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,furniture_bedroom,597.99,3,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,furniture_decor,20048.25,302,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,furniture_living_room,2836.42,27,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,furniture_mattress_and_upholstery,109.4,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,garden_tools,12667.96,170,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,health_beauty,21413.4,288,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,home_appliances,2390.94,35,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,home_appliances_2,1033.99,7,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,home_comfort_2,12.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,home_confort,4264.85,42,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,home_construction,93.6,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,housewares,17355.79,264,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,industry_commerce_and_business,245.95999999999998,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,kitchen_dining_laundry_garden_furniture,847.5,10,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,la_cuisine,469.99,4,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,luggage_accessories,7301.91,70,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,market_place,833.58,11,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,musical_instruments,1721.9,20,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,office_furniture,16612.62,114,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,party_supplies,69.9,1,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,perfumery,9983.35,113,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,pet_shop,6575.97,85,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,signaling_and_security,475.90999999999997,5,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,small_appliances,2100.5299999999997,27,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,sports_leisure,28584.37,361,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,stationery,6207.85,76,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,tablets_printing_image,198.0,2,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,telephony,6045.19,135,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,toys,16338.630000000001,186,0.0,True,2,CA faible | Faible volume de commandes
+2017,7,watches_gifts,15040.65,135,0.0,True,2,CA faible | Faible volume de commandes
+2017,8,agro_industry_and_commerce,88.0,4,0.0,True,1,CA faible
+2017,8,air_conditioning,1450.8600000000001,10,0.0,True,1,CA faible
+2017,8,art,244.7,4,0.0,True,1,CA faible
+2017,8,audio,611.6999999999999,6,0.0,True,1,CA faible
+2017,8,auto,11732.02,146,0.0,True,1,CA faible
+2017,8,baby,9256.92,107,0.0,True,1,CA faible
+2017,8,bed_bath_table,52077.83,493,0.0,True,1,CA faible
+2017,8,books_general_interest,2275.0,27,0.0,True,1,CA faible
+2017,8,books_imported,61.0,1,0.0,True,1,CA faible
+2017,8,books_technical,811.45,8,0.0,True,1,CA faible
+2017,8,cds_dvds_musicals,135.0,3,0.0,True,1,CA faible
+2017,8,christmas_supplies,58.9,1,0.0,True,1,CA faible
+2017,8,computers_accessories,27691.600000000002,330,0.0,True,1,CA faible
+2017,8,consoles_games,4075.96,76,0.0,True,1,CA faible
+2017,8,construction_tools_construction,791.0,6,0.0,True,1,CA faible
+2017,8,construction_tools_lights,229.0,1,0.0,True,1,CA faible
+2017,8,construction_tools_safety,8.9,1,0.0,True,1,CA faible
+2017,8,cool_stuff,21854.23,227,0.0,True,1,CA faible
+2017,8,costruction_tools_garden,1286.19,10,0.0,True,1,CA faible
+2017,8,drinks,119.9,2,0.0,True,1,CA faible
+2017,8,dvds_blu_ray,113.39999999999999,6,0.0,True,1,CA faible
+2017,8,electronics,2854.15,56,0.0,True,1,CA faible
+2017,8,fashio_female_clothing,188.70000000000002,4,0.0,True,1,CA faible
+2017,8,fashion_bags_accessories,5154.29,92,0.0,True,1,CA faible
+2017,8,fashion_male_clothing,1175.06,14,0.0,True,1,CA faible
+2017,8,fashion_shoes,1491.69,22,0.0,True,1,CA faible
+2017,8,fashion_sport,265.8,2,0.0,True,1,CA faible
+2017,8,fashion_underwear_beach,1111.0,13,0.0,True,1,CA faible
+2017,8,fixed_telephony,1022.65,17,0.0,True,1,CA faible
+2017,8,food,364.5,8,0.0,True,1,CA faible
+2017,8,food_drink,494.81,15,0.0,True,1,CA faible
+2017,8,furniture_bedroom,618.0,3,0.0,True,1,CA faible
+2017,8,furniture_decor,30194.8,417,0.0,True,1,CA faible
+2017,8,furniture_living_room,2054.07,22,0.0,True,1,CA faible
+2017,8,furniture_mattress_and_upholstery,109.4,1,0.0,True,1,CA faible
+2017,8,garden_tools,14404.76,218,0.0,True,1,CA faible
+2017,8,health_beauty,23143.83,305,0.0,True,1,CA faible
+2017,8,home_appliances,2988.0,40,0.0,True,1,CA faible
+2017,8,home_appliances_2,2519.55,13,0.0,True,1,CA faible
+2017,8,home_comfort_2,38.7,3,0.0,True,1,CA faible
+2017,8,home_confort,2204.19,24,0.0,True,1,CA faible
+2017,8,home_construction,124.8,1,0.0,True,1,CA faible
+2017,8,housewares,17598.4,266,0.0,True,1,CA faible
+2017,8,industry_commerce_and_business,208.9,2,0.0,True,1,CA faible
+2017,8,kitchen_dining_laundry_garden_furniture,717.2,6,0.0,True,1,CA faible
+2017,8,la_cuisine,313.0,2,0.0,True,1,CA faible
+2017,8,luggage_accessories,4724.6,56,0.0,True,1,CA faible
+2017,8,market_place,1937.3899999999999,23,0.0,True,1,CA faible
+2017,8,musical_instruments,1246.4,15,0.0,True,1,CA faible
+2017,8,office_furniture,8678.02,55,0.0,True,1,CA faible
+2017,8,perfumery,9760.5,117,0.0,True,1,CA faible
+2017,8,pet_shop,6293.14,80,0.0,True,1,CA faible
+2017,8,signaling_and_security,377.8,4,0.0,True,1,CA faible
+2017,8,small_appliances,1667.21,32,0.0,True,1,CA faible
+2017,8,small_appliances_home_oven_and_coffee,21.9,1,0.0,True,1,CA faible
+2017,8,sports_leisure,31688.18,399,0.0,True,1,CA faible
+2017,8,stationery,5597.11,78,0.0,True,1,CA faible
+2017,8,tablets_printing_image,450.89,6,0.0,True,1,CA faible
+2017,8,telephony,8043.62,124,0.0,True,1,CA faible
+2017,8,toys,14032.52,173,0.0,True,1,CA faible
+2017,8,watches_gifts,17562.35,177,0.0,True,1,CA faible
+2017,9,air_conditioning,909.16,6,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,art,88.55,2,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,audio,1042.5900000000001,10,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,auto,7897.77,92,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,baby,13054.06,152,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,bed_bath_table,49671.630000000005,522,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,books_general_interest,932.24,14,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,books_imported,290.0,4,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,books_technical,1001.35,8,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,christmas_supplies,254.7,4,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,cine_photo,69.0,1,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,computers_accessories,22664.37,235,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,consoles_games,2910.59,53,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,construction_tools_construction,941.3000000000001,9,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,construction_tools_lights,229.0,1,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,construction_tools_safety,307.7,3,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,cool_stuff,18409.920000000002,169,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,costruction_tools_garden,251.6,5,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,costruction_tools_tools,187.89000000000001,2,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,drinks,244.98,6,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,dvds_blu_ray,39.8,2,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,electronics,3739.16,65,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,fashio_female_clothing,355.7,4,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,fashion_bags_accessories,7967.64,113,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,fashion_childrens_clothes,89.99,1,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,fashion_male_clothing,1177.5,16,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,fashion_shoes,1099.7,13,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,fashion_sport,384.6,5,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,fashion_underwear_beach,1619.9,16,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,fixed_telephony,252.91,5,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,food,992.9200000000001,17,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,food_drink,310.86,9,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,furniture_bedroom,709.6,4,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,furniture_decor,26051.170000000002,333,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,furniture_living_room,945.97,10,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,furniture_mattress_and_upholstery,86.5,1,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,garden_tools,15825.89,213,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,health_beauty,26647.82,324,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,home_appliances,622.3900000000001,8,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,home_appliances_2,711.0,4,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,home_comfort_2,12.9,1,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,home_confort,3694.34,31,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,home_construction,1357.81,11,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,housewares,15263.7,241,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,industry_commerce_and_business,219.98,2,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,kitchen_dining_laundry_garden_furniture,409.6,4,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,luggage_accessories,3010.5,39,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,market_place,867.22,10,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,musical_instruments,1180.8000000000002,14,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,office_furniture,7932.9800000000005,56,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,party_supplies,269.8,2,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,perfumery,10013.04,141,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,pet_shop,6237.02,69,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,security_and_services,100.0,1,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,signaling_and_security,438.4,9,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,small_appliances,2135.95,22,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,sports_leisure,38823.950000000004,430,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,stationery,5851.52,75,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,tablets_printing_image,233.9,3,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,telephony,10440.44,147,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,toys,20821.04,265,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,9,watches_gifts,24700.71,230,0.0,True,3,CA faible | Retards de livraison | Faible volume de commandes
+2017,10,agro_industry_and_commerce,101.3,3,0.0,True,1,Retards de livraison
+2017,10,air_conditioning,1766.42,10,0.0,True,1,Retards de livraison
+2017,10,art,349.05,3,0.0,True,1,Retards de livraison
+2017,10,audio,2328.58,31,0.0,True,1,Retards de livraison
+2017,10,auto,11855.64,130,0.0,True,1,Retards de livraison
+2017,10,baby,12482.51,130,0.0,True,1,Retards de livraison
+2017,10,bed_bath_table,42863.1,533,0.0,True,1,Retards de livraison
+2017,10,books_general_interest,734.5,11,0.0,True,1,Retards de livraison
+2017,10,books_technical,880.0,6,0.0,True,1,Retards de livraison
+2017,10,cds_dvds_musicals,45.0,1,0.0,True,1,Retards de livraison
+2017,10,christmas_supplies,388.05,12,0.0,True,1,Retards de livraison
+2017,10,cine_photo,69.0,1,0.0,True,1,Retards de livraison
+2017,10,computers_accessories,27334.96,286,0.0,True,1,Retards de livraison
+2017,10,consoles_games,4947.75,96,0.0,True,1,Retards de livraison
+2017,10,construction_tools_construction,1309.18,16,0.0,True,1,Retards de livraison
+2017,10,construction_tools_lights,500.0,2,0.0,True,1,Retards de livraison
+2017,10,construction_tools_safety,1668.85,12,0.0,True,1,Retards de livraison
+2017,10,cool_stuff,27372.84,225,0.0,True,1,Retards de livraison
+2017,10,costruction_tools_garden,746.9,9,0.0,True,1,Retards de livraison
+2017,10,costruction_tools_tools,289.6,4,0.0,True,1,Retards de livraison
+2017,10,drinks,596.98,12,0.0,True,1,Retards de livraison
+2017,10,dvds_blu_ray,174.6,4,0.0,True,1,Retards de livraison
+2017,10,electronics,2776.55,60,0.0,True,1,Retards de livraison
+2017,10,fashion_bags_accessories,6017.76,104,0.0,True,1,Retards de livraison
+2017,10,fashion_childrens_clothes,39.99,1,0.0,True,1,Retards de livraison
+2017,10,fashion_male_clothing,971.9000000000001,10,0.0,True,1,Retards de livraison
+2017,10,fashion_shoes,1860.92,18,0.0,True,1,Retards de livraison
+2017,10,fashion_sport,59.9,1,0.0,True,1,Retards de livraison
+2017,10,fashion_underwear_beach,187.8,3,0.0,True,1,Retards de livraison
+2017,10,fixed_telephony,414.9,4,0.0,True,1,Retards de livraison
+2017,10,food,806.06,17,0.0,True,1,Retards de livraison
+2017,10,food_drink,2297.23,17,0.0,True,1,Retards de livraison
+2017,10,furniture_bedroom,433.9,2,0.0,True,1,Retards de livraison
+2017,10,furniture_decor,26349.86,366,0.0,True,1,Retards de livraison
+2017,10,furniture_living_room,1532.79,19,0.0,True,1,Retards de livraison
+2017,10,garden_tools,20525.95,273,0.0,True,1,Retards de livraison
+2017,10,health_beauty,25046.82,317,0.0,True,1,Retards de livraison
+2017,10,home_appliances,439.68000000000006,5,0.0,True,1,Retards de livraison
+2017,10,home_appliances_2,1007.77,7,0.0,True,1,Retards de livraison
+2017,10,home_comfort_2,64.5,5,0.0,True,1,Retards de livraison
+2017,10,home_confort,2940.9,25,0.0,True,1,Retards de livraison
+2017,10,home_construction,1043.6,12,0.0,True,1,Retards de livraison
+2017,10,housewares,14244.1,225,0.0,True,1,Retards de livraison
+2017,10,industry_commerce_and_business,187.70000000000002,3,0.0,True,1,Retards de livraison
+2017,10,kitchen_dining_laundry_garden_furniture,1457.6,12,0.0,True,1,Retards de livraison
+2017,10,la_cuisine,137.0,1,0.0,True,1,Retards de livraison
+2017,10,luggage_accessories,4452.47,50,0.0,True,1,Retards de livraison
+2017,10,market_place,702.4,10,0.0,True,1,Retards de livraison
+2017,10,music,54.9,1,0.0,True,1,Retards de livraison
+2017,10,musical_instruments,602.26,12,0.0,True,1,Retards de livraison
+2017,10,office_furniture,16512.04,98,0.0,True,1,Retards de livraison
+2017,10,party_supplies,137.8,2,0.0,True,1,Retards de livraison
+2017,10,perfumery,14187.29,180,0.0,True,1,Retards de livraison
+2017,10,pet_shop,5883.88,71,0.0,True,1,Retards de livraison
+2017,10,signaling_and_security,744.0,10,0.0,True,1,Retards de livraison
+2017,10,small_appliances,1656.55,24,0.0,True,1,Retards de livraison
+2017,10,sports_leisure,38852.6,440,0.0,True,1,Retards de livraison
+2017,10,stationery,7207.27,95,0.0,True,1,Retards de livraison
+2017,10,tablets_printing_image,99.0,1,0.0,True,1,Retards de livraison
+2017,10,telephony,11281.3,212,0.0,True,1,Retards de livraison
+2017,10,toys,21562.22,254,0.0,True,1,Retards de livraison
+2017,10,watches_gifts,25511.44,238,0.0,True,1,Retards de livraison
+2017,11,agro_industry_and_commerce,39.9,1,0.0,True,1,Retards de livraison
+2017,11,air_conditioning,1958.8200000000002,15,0.0,True,1,Retards de livraison
+2017,11,art,75.0,1,0.0,True,1,Retards de livraison
+2017,11,audio,3008.2400000000002,34,0.0,True,1,Retards de livraison
+2017,11,auto,20330.79,232,0.0,True,1,Retards de livraison
+2017,11,baby,14299.2,179,0.0,True,1,Retards de livraison
+2017,11,bed_bath_table,82115.34,948,0.0,True,1,Retards de livraison
+2017,11,books_general_interest,2630.9700000000003,37,0.0,True,1,Retards de livraison
+2017,11,books_imported,247.0,3,0.0,True,1,Retards de livraison
+2017,11,books_technical,768.9,6,0.0,True,1,Retards de livraison
+2017,11,cds_dvds_musicals,195.0,3,0.0,True,1,Retards de livraison
+2017,11,christmas_supplies,1312.6000000000001,22,0.0,True,1,Retards de livraison
+2017,11,cine_photo,242.0,1,0.0,True,1,Retards de livraison
+2017,11,computers_accessories,47524.5,475,0.0,True,1,Retards de livraison
+2017,11,consoles_games,5472.28,113,0.0,True,1,Retards de livraison
+2017,11,construction_tools_construction,2973.66,38,0.0,True,1,Retards de livraison
+2017,11,construction_tools_lights,1799.98,9,0.0,True,1,Retards de livraison
+2017,11,construction_tools_safety,1361.9,11,0.0,True,1,Retards de livraison
+2017,11,cool_stuff,32932.04,260,0.0,True,1,Retards de livraison
+2017,11,costruction_tools_garden,723.5,16,0.0,True,1,Retards de livraison
+2017,11,costruction_tools_tools,269.5,5,0.0,True,1,Retards de livraison
+2017,11,drinks,674.12,18,0.0,True,1,Retards de livraison
+2017,11,dvds_blu_ray,79.78999999999999,3,0.0,True,1,Retards de livraison
+2017,11,electronics,7875.89,176,0.0,True,1,Retards de livraison
+2017,11,fashio_female_clothing,59.98,2,0.0,True,1,Retards de livraison
+2017,11,fashion_bags_accessories,11085.83,190,0.0,True,1,Retards de livraison
+2017,11,fashion_male_clothing,880.99,11,0.0,True,1,Retards de livraison
+2017,11,fashion_shoes,1707.8,19,0.0,True,1,Retards de livraison
+2017,11,fashion_sport,59.9,1,0.0,True,1,Retards de livraison
+2017,11,fashion_underwear_beach,1221.6,10,0.0,True,1,Retards de livraison
+2017,11,fixed_telephony,365.99,4,0.0,True,1,Retards de livraison
+2017,11,flowers,187.8,6,0.0,True,1,Retards de livraison
+2017,11,food,498.09,14,0.0,True,1,Retards de livraison
+2017,11,food_drink,2445.57,33,0.0,True,1,Retards de livraison
+2017,11,furniture_bedroom,363.0,2,0.0,True,1,Retards de livraison
+2017,11,furniture_decor,53523.41,747,0.0,True,1,Retards de livraison
+2017,11,furniture_living_room,3384.55,33,0.0,True,1,Retards de livraison
+2017,11,furniture_mattress_and_upholstery,334.0,2,0.0,True,1,Retards de livraison
+2017,11,garden_tools,36846.31,538,0.0,True,1,Retards de livraison
+2017,11,health_beauty,38282.13,496,0.0,True,1,Retards de livraison
+2017,11,home_appliances,1420.04,20,0.0,True,1,Retards de livraison
+2017,11,home_appliances_2,820.43,6,0.0,True,1,Retards de livraison
+2017,11,home_comfort_2,38.7,3,0.0,True,1,Retards de livraison
+2017,11,home_confort,3958.3900000000003,42,0.0,True,1,Retards de livraison
+2017,11,home_construction,3040.7000000000003,33,0.0,True,1,Retards de livraison
+2017,11,housewares,24542.88,393,0.0,True,1,Retards de livraison
+2017,11,industry_commerce_and_business,304.88,4,0.0,True,1,Retards de livraison
+2017,11,kitchen_dining_laundry_garden_furniture,3401.39,29,0.0,True,1,Retards de livraison
+2017,11,la_cuisine,137.0,1,0.0,True,1,Retards de livraison
+2017,11,luggage_accessories,6412.360000000001,66,0.0,True,1,Retards de livraison
+2017,11,market_place,990.98,15,0.0,True,1,Retards de livraison
+2017,11,musical_instruments,3067.08,29,0.0,True,1,Retards de livraison
+2017,11,office_furniture,14701.7,92,0.0,True,1,Retards de livraison
+2017,11,party_supplies,279.5,2,0.0,True,1,Retards de livraison
+2017,11,perfumery,22638.87,279,0.0,True,1,Retards de livraison
+2017,11,pet_shop,7882.89,92,0.0,True,1,Retards de livraison
+2017,11,signaling_and_security,596.79,5,0.0,True,1,Retards de livraison
+2017,11,small_appliances,1585.62,19,0.0,True,1,Retards de livraison
+2017,11,sports_leisure,48413.270000000004,569,0.0,True,1,Retards de livraison
+2017,11,stationery,15717.19,162,0.0,True,1,Retards de livraison
+2017,11,tablets_printing_image,350.40000000000003,6,0.0,True,1,Retards de livraison
+2017,11,telephony,20845.71,353,0.0,True,1,Retards de livraison
+2017,11,toys,37627.78,426,0.0,True,1,Retards de livraison
+2017,11,watches_gifts,40951.87,385,0.0,True,1,Retards de livraison
+2017,12,agro_industry_and_commerce,598.7,4,0.0,False,0,
+2017,12,air_conditioning,368.9,2,0.0,False,0,
+2017,12,art,115.25,3,0.0,False,0,
+2017,12,audio,889.96,14,0.0,False,0,
+2017,12,auto,21871.69,232,0.0,False,0,
+2017,12,baby,11673.68,125,0.0,False,0,
+2017,12,bed_bath_table,48464.37,542,0.0,False,0,
+2017,12,books_general_interest,2352.2,41,0.0,False,0,
+2017,12,books_imported,231.0,3,0.0,False,0,
+2017,12,books_technical,670.69,4,0.0,False,0,
+2017,12,cds_dvds_musicals,65.0,1,0.0,False,0,
+2017,12,christmas_supplies,493.90000000000003,16,0.0,False,0,
+2017,12,computers_accessories,26179.7,267,0.0,False,0,
+2017,12,consoles_games,3878.02,78,0.0,False,0,
+2017,12,construction_tools_construction,1266.1000000000001,19,0.0,False,0,
+2017,12,construction_tools_lights,176.0,2,0.0,False,0,
+2017,12,construction_tools_safety,605.05,5,0.0,False,0,
+2017,12,cool_stuff,30352.97,236,0.0,False,0,
+2017,12,costruction_tools_garden,433.9,5,0.0,False,0,
+2017,12,costruction_tools_tools,349.4,6,0.0,False,0,
+2017,12,diapers_and_hygiene,76.0,2,0.0,False,0,
+2017,12,drinks,1509.8400000000001,33,0.0,False,0,
+2017,12,dvds_blu_ray,119.9,1,0.0,False,0,
+2017,12,electronics,7039.72,206,0.0,False,0,
+2017,12,fashion_bags_accessories,8511.77,131,0.0,False,0,
+2017,12,fashion_male_clothing,158.39000000000001,3,0.0,False,0,
+2017,12,fashion_shoes,1099.0,13,0.0,False,0,
+2017,12,fashion_sport,59.9,1,0.0,False,0,
+2017,12,fashion_underwear_beach,1173.1,13,0.0,False,0,
+2017,12,fixed_telephony,374.78000000000003,4,0.0,False,0,
+2017,12,flowers,82.7,2,0.0,False,0,
+2017,12,food,939.34,13,0.0,False,0,
+2017,12,food_drink,1033.68,21,0.0,False,0,
+2017,12,furniture_bedroom,185.0,1,0.0,False,0,
+2017,12,furniture_decor,26532.2,369,0.0,False,0,
+2017,12,furniture_living_room,1367.21,18,0.0,False,0,
+2017,12,furniture_mattress_and_upholstery,803.7,8,0.0,False,0,
+2017,12,garden_tools,22928.22,316,0.0,False,0,
+2017,12,health_beauty,33785.74,415,0.0,False,0,
+2017,12,home_appliances,1331.0,16,0.0,False,0,
+2017,12,home_appliances_2,1467.66,7,0.0,False,0,
+2017,12,home_confort,1170.8,11,0.0,False,0,
+2017,12,home_construction,2494.85,27,0.0,False,0,
+2017,12,housewares,20563.260000000002,277,0.0,False,0,
+2017,12,industry_commerce_and_business,1083.5,8,0.0,False,0,
+2017,12,kitchen_dining_laundry_garden_furniture,1273.3,12,0.0,False,0,
+2017,12,luggage_accessories,5374.41,44,0.0,False,0,
+2017,12,market_place,703.25,14,0.0,False,0,
+2017,12,musical_instruments,3478.15,32,0.0,False,0,
+2017,12,office_furniture,5634.67,45,0.0,False,0,
+2017,12,party_supplies,515.2,2,0.0,False,0,
+2017,12,perfumery,20495.16,216,0.0,False,0,
+2017,12,pet_shop,6526.84,71,0.0,False,0,
+2017,12,signaling_and_security,100.0,1,0.0,False,0,
+2017,12,small_appliances,1738.47,18,0.0,False,0,
+2017,12,sports_leisure,43230.45,462,0.0,False,0,
+2017,12,stationery,23694.21,245,0.0,False,0,
+2017,12,tablets_printing_image,419.40000000000003,6,0.0,False,0,
+2017,12,telephony,12132.539999999999,258,0.0,False,0,
+2017,12,toys,39208.26,400,0.0,False,0,
+2017,12,watches_gifts,34381.87,292,0.0,False,0,
+2018,1,agro_industry_and_commerce,655.5,9,0.0,False,0,
+2018,1,air_conditioning,2556.14,25,0.0,False,0,
+2018,1,art,2540.77,19,0.0,False,0,
+2018,1,audio,2642.29,24,0.0,False,0,
+2018,1,auto,25067.55,244,0.0,False,0,
+2018,1,baby,17735.01,200,0.0,False,0,
+2018,1,bed_bath_table,67967.14,817,0.0,False,0,
+2018,1,books_general_interest,2160.2000000000003,44,0.0,False,0,
+2018,1,books_imported,583.0,6,0.0,False,0,
+2018,1,books_technical,1176.55,17,0.0,False,0,
+2018,1,christmas_supplies,851.5,10,0.0,False,0,
+2018,1,cine_photo,199.98,2,0.0,False,0,
+2018,1,computers_accessories,67238.12,664,0.0,False,0,
+2018,1,consoles_games,2618.71,41,0.0,False,0,
+2018,1,construction_tools_construction,3917.58,39,0.0,False,0,
+2018,1,construction_tools_lights,1102.99,6,0.0,False,0,
+2018,1,construction_tools_safety,1048.95,9,0.0,False,0,
+2018,1,cool_stuff,27737.420000000002,278,0.0,False,0,
+2018,1,costruction_tools_garden,1837.99,19,0.0,False,0,
+2018,1,costruction_tools_tools,532.3,8,0.0,False,0,
+2018,1,diapers_and_hygiene,125.0,5,0.0,False,0,
+2018,1,drinks,2227.61,50,0.0,False,0,
+2018,1,dvds_blu_ray,49.8,2,0.0,False,0,
+2018,1,electronics,11820.3,342,0.0,False,0,
+2018,1,fashio_female_clothing,161.79000000000002,3,0.0,False,0,
+2018,1,fashion_bags_accessories,7040.82,123,0.0,False,0,
+2018,1,fashion_male_clothing,550.6,6,0.0,False,0,
+2018,1,fashion_shoes,666.7,9,0.0,False,0,
+2018,1,fashion_sport,119.8,2,0.0,False,0,
+2018,1,fashion_underwear_beach,754.5,8,0.0,False,0,
+2018,1,fixed_telephony,235.12,7,0.0,False,0,
+2018,1,flowers,284.6,10,0.0,False,0,
+2018,1,food,829.56,19,0.0,False,0,
+2018,1,food_drink,341.16999999999996,11,0.0,False,0,
+2018,1,furniture_bedroom,914.8,5,0.0,False,0,
+2018,1,furniture_decor,45686.42,572,0.0,False,0,
+2018,1,furniture_living_room,2308.1,22,0.0,False,0,
+2018,1,furniture_mattress_and_upholstery,860.5,9,0.0,False,0,
+2018,1,garden_tools,17034.16,223,0.0,False,0,
+2018,1,health_beauty,43778.25,556,0.0,False,0,
+2018,1,home_appliances,1725.15,27,0.0,False,0,
+2018,1,home_appliances_2,364.6,5,0.0,False,0,
+2018,1,home_confort,2221.16,17,0.0,False,0,
+2018,1,home_construction,2141.55,31,0.0,False,0,
+2018,1,housewares,25547.13,325,0.0,False,0,
+2018,1,industry_commerce_and_business,1339.4,16,0.0,False,0,
+2018,1,kitchen_dining_laundry_garden_furniture,1269.6,12,0.0,False,0,
+2018,1,la_cuisine,112.0,1,0.0,False,0,
+2018,1,luggage_accessories,13001.09,109,0.0,False,0,
+2018,1,market_place,818.72,14,0.0,False,0,
+2018,1,music,24.97,1,0.0,False,0,
+2018,1,musical_instruments,4020.28,38,0.0,False,0,
+2018,1,office_furniture,17166.12,135,0.0,False,0,
+2018,1,party_supplies,135.8,2,0.0,False,0,
+2018,1,perfumery,15533.17,212,0.0,False,0,
+2018,1,pet_shop,8008.36,84,0.0,False,0,
+2018,1,signaling_and_security,1048.79,8,0.0,False,0,
+2018,1,small_appliances,4210.43,35,0.0,False,0,
+2018,1,sports_leisure,58601.86,606,0.0,False,0,
+2018,1,stationery,35651.13,373,0.0,False,0,
+2018,1,tablets_printing_image,161.8,3,0.0,False,0,
+2018,1,telephony,12832.19,364,0.0,False,0,
+2018,1,toys,14225.61,147,0.0,False,0,
+2018,1,watches_gifts,34527.9,294,0.0,False,0,
+2018,2,agro_industry_and_commerce,794.8,12,0.0,True,1,Retards de livraison
+2018,2,air_conditioning,962.59,8,0.0,True,1,Retards de livraison
+2018,2,art,1216.71,12,0.0,True,1,Retards de livraison
+2018,2,audio,1341.5,12,0.0,True,1,Retards de livraison
+2018,2,auto,25445.57,287,0.0,True,1,Retards de livraison
+2018,2,baby,12787.69,156,0.0,True,1,Retards de livraison
+2018,2,bed_bath_table,54966.69,671,0.0,True,1,Retards de livraison
+2018,2,books_general_interest,1886.65,28,0.0,True,1,Retards de livraison
+2018,2,books_imported,325.0,3,0.0,True,1,Retards de livraison
+2018,2,books_technical,1411.21,26,0.0,True,1,Retards de livraison
+2018,2,christmas_supplies,2059.65,24,0.0,True,1,Retards de livraison
+2018,2,cine_photo,227.99,2,0.0,True,1,Retards de livraison
+2018,2,computers_accessories,86839.38,945,0.0,True,1,Retards de livraison
+2018,2,consoles_games,2955.82,37,0.0,True,1,Retards de livraison
+2018,2,construction_tools_construction,5235.37,61,0.0,True,1,Retards de livraison
+2018,2,construction_tools_lights,1313.8,16,0.0,True,1,Retards de livraison
+2018,2,construction_tools_safety,416.9,4,0.0,True,1,Retards de livraison
+2018,2,cool_stuff,22165.36,162,0.0,True,1,Retards de livraison
+2018,2,costruction_tools_garden,1038.26,19,0.0,True,1,Retards de livraison
+2018,2,costruction_tools_tools,391.2,9,0.0,True,1,Retards de livraison
+2018,2,diapers_and_hygiene,100.0,4,0.0,True,1,Retards de livraison
+2018,2,drinks,1296.95,30,0.0,True,1,Retards de livraison
+2018,2,dvds_blu_ray,24.9,1,0.0,True,1,Retards de livraison
+2018,2,electronics,11089.72,323,0.0,True,1,Retards de livraison
+2018,2,fashio_female_clothing,29.99,1,0.0,True,1,Retards de livraison
+2018,2,fashion_bags_accessories,6920.94,103,0.0,True,1,Retards de livraison
+2018,2,fashion_male_clothing,388.09000000000003,3,0.0,True,1,Retards de livraison
+2018,2,fashion_shoes,1033.7,11,0.0,True,1,Retards de livraison
+2018,2,fashion_underwear_beach,399.3,7,0.0,True,1,Retards de livraison
+2018,2,fixed_telephony,407.69,7,0.0,True,1,Retards de livraison
+2018,2,flowers,134.48,4,0.0,True,1,Retards de livraison
+2018,2,food,1783.52,38,0.0,True,1,Retards de livraison
+2018,2,food_drink,1018.3,23,0.0,True,1,Retards de livraison
+2018,2,furniture_bedroom,895.8,7,0.0,True,1,Retards de livraison
+2018,2,furniture_decor,31487.77,407,0.0,True,1,Retards de livraison
+2018,2,furniture_living_room,1813.88,20,0.0,True,1,Retards de livraison
+2018,2,furniture_mattress_and_upholstery,344.7,5,0.0,True,1,Retards de livraison
+2018,2,garden_tools,20408.53,282,0.0,True,1,Retards de livraison
+2018,2,health_beauty,44101.51,562,0.0017793594306049821,True,1,Retards de livraison
+2018,2,home_appliances,2760.55,44,0.0,True,1,Retards de livraison
+2018,2,home_appliances_2,2412.84,14,0.0,True,1,Retards de livraison
+2018,2,home_comfort_2,38.7,3,0.0,True,1,Retards de livraison
+2018,2,home_confort,2354.76,19,0.0,True,1,Retards de livraison
+2018,2,home_construction,2160.89,31,0.0,True,1,Retards de livraison
+2018,2,housewares,26354.2,370,0.0,True,1,Retards de livraison
+2018,2,industry_commerce_and_business,3085.29,34,0.0,True,1,Retards de livraison
+2018,2,kitchen_dining_laundry_garden_furniture,1027.16,12,0.0,True,1,Retards de livraison
+2018,2,luggage_accessories,3905.75,40,0.0,True,1,Retards de livraison
+2018,2,market_place,1920.92,28,0.0,True,1,Retards de livraison
+2018,2,music,244.97,2,0.0,True,1,Retards de livraison
+2018,2,musical_instruments,3285.83,33,0.0,True,1,Retards de livraison
+2018,2,office_furniture,12902.6,95,0.0,True,1,Retards de livraison
+2018,2,perfumery,16088.5,199,0.0,True,1,Retards de livraison
+2018,2,pet_shop,8908.25,98,0.0,True,1,Retards de livraison
+2018,2,signaling_and_security,715.79,15,0.0,True,1,Retards de livraison
+2018,2,small_appliances,2628.11,29,0.0,True,1,Retards de livraison
+2018,2,small_appliances_home_oven_and_coffee,24.9,1,0.0,True,1,Retards de livraison
+2018,2,sports_leisure,57287.21,602,0.0,True,1,Retards de livraison
+2018,2,stationery,9471.63,143,0.0,True,1,Retards de livraison
+2018,2,tablets_printing_image,694.97,13,0.0,True,1,Retards de livraison
+2018,2,telephony,13067.49,352,0.0,True,1,Retards de livraison
+2018,2,toys,9624.960000000001,129,0.0,True,1,Retards de livraison
+2018,2,watches_gifts,35065.37,274,0.0,True,1,Retards de livraison
+2018,3,agro_industry_and_commerce,906.5,17,0.0,True,1,Retards de livraison
+2018,3,air_conditioning,2507.68,24,0.0,True,1,Retards de livraison
+2018,3,art,461.5,7,0.0,True,1,Retards de livraison
+2018,3,audio,1922.93,17,0.0,True,1,Retards de livraison
+2018,3,auto,29107.45,303,0.0,True,1,Retards de livraison
+2018,3,baby,14347.99,181,0.0,True,1,Retards de livraison
+2018,3,bed_bath_table,62230.86,761,0.0,True,1,Retards de livraison
+2018,3,books_general_interest,1691.94,38,0.0,True,1,Retards de livraison
+2018,3,books_imported,259.0,3,0.0,True,1,Retards de livraison
+2018,3,books_technical,913.47,17,0.0,True,1,Retards de livraison
+2018,3,christmas_supplies,854.95,12,0.0,True,1,Retards de livraison
+2018,3,cine_photo,711.79,7,0.0,True,1,Retards de livraison
+2018,3,computers_accessories,68227.36,723,0.0,True,1,Retards de livraison
+2018,3,consoles_games,3175.64,48,0.0,True,1,Retards de livraison
+2018,3,construction_tools_construction,4844.58,58,0.0,True,1,Retards de livraison
+2018,3,construction_tools_lights,1942.7,11,0.0,True,1,Retards de livraison
+2018,3,construction_tools_safety,701.8100000000001,12,0.0,True,1,Retards de livraison
+2018,3,cool_stuff,27498.99,227,0.0,True,1,Retards de livraison
+2018,3,costruction_tools_garden,1307.33,20,0.0,True,1,Retards de livraison
+2018,3,costruction_tools_tools,931.3,9,0.0,True,1,Retards de livraison
+2018,3,diapers_and_hygiene,125.0,5,0.0,True,1,Retards de livraison
+2018,3,drinks,962.7,21,0.0,True,1,Retards de livraison
+2018,3,dvds_blu_ray,49.8,2,0.0,True,1,Retards de livraison
+2018,3,electronics,9221.11,251,0.0,True,1,Retards de livraison
+2018,3,fashio_female_clothing,119.96,4,0.0,True,1,Retards de livraison
+2018,3,fashion_bags_accessories,7231.71,130,0.0,True,1,Retards de livraison
+2018,3,fashion_childrens_clothes,79.98,2,0.0,True,1,Retards de livraison
+2018,3,fashion_shoes,1053.1,11,0.0,True,1,Retards de livraison
+2018,3,fashion_sport,89.9,1,0.0,True,1,Retards de livraison
+2018,3,fashion_underwear_beach,289.4,5,0.0,True,1,Retards de livraison
+2018,3,fixed_telephony,1930.59,14,0.0,True,1,Retards de livraison
+2018,3,flowers,89.67,3,0.0,True,1,Retards de livraison
+2018,3,food,1559.9,35,0.0,True,1,Retards de livraison
+2018,3,food_drink,1080.87,17,0.0,True,1,Retards de livraison
+2018,3,furniture_bedroom,1071.8,6,0.0,True,1,Retards de livraison
+2018,3,furniture_decor,42478.28,559,0.0,True,1,Retards de livraison
+2018,3,furniture_living_room,1486.2,13,0.0,True,1,Retards de livraison
+2018,3,furniture_mattress_and_upholstery,440.0,4,0.0,True,1,Retards de livraison
+2018,3,garden_tools,17706.98,240,0.0,True,1,Retards de livraison
+2018,3,health_beauty,40895.57,555,0.0,True,1,Retards de livraison
+2018,3,home_appliances,4656.79,63,0.0,True,1,Retards de livraison
+2018,3,home_appliances_2,703.8,5,0.0,True,1,Retards de livraison
+2018,3,home_comfort_2,34.99,1,0.0,True,1,Retards de livraison
+2018,3,home_confort,2193.38,20,0.0,True,1,Retards de livraison
+2018,3,home_construction,2683.54,37,0.0,True,1,Retards de livraison
+2018,3,housewares,26660.52,372,0.0,True,1,Retards de livraison
+2018,3,industry_commerce_and_business,2922.45,29,0.0,True,1,Retards de livraison
+2018,3,kitchen_dining_laundry_garden_furniture,680.66,8,0.0,True,1,Retards de livraison
+2018,3,luggage_accessories,4552.08,52,0.0,True,1,Retards de livraison
+2018,3,market_place,1548.74,17,0.0,True,1,Retards de livraison
+2018,3,music,24.97,1,0.0,True,1,Retards de livraison
+2018,3,musical_instruments,4232.3,46,0.0,True,1,Retards de livraison
+2018,3,office_furniture,25535.44,185,0.0,True,1,Retards de livraison
+2018,3,party_supplies,515.9,5,0.0,True,1,Retards de livraison
+2018,3,perfumery,15578.960000000001,186,0.0,True,1,Retards de livraison
+2018,3,pet_shop,10440.22,116,0.0,True,1,Retards de livraison
+2018,3,signaling_and_security,563.9,8,0.0,True,1,Retards de livraison
+2018,3,small_appliances,1988.3,21,0.0,True,1,Retards de livraison
+2018,3,small_appliances_home_oven_and_coffee,214.9,1,0.0,True,1,Retards de livraison
+2018,3,sports_leisure,62915.42,692,0.0,True,1,Retards de livraison
+2018,3,stationery,11590.35,160,0.0,True,1,Retards de livraison
+2018,3,tablets_printing_image,259.29,3,0.0,True,1,Retards de livraison
+2018,3,telephony,11643.85,317,0.0,True,1,Retards de livraison
+2018,3,toys,15130.380000000001,211,0.0,True,1,Retards de livraison
+2018,3,watches_gifts,45433.35,340,0.0,True,1,Retards de livraison
+2018,4,agro_industry_and_commerce,776.4,6,0.0,False,0,
+2018,4,air_conditioning,2561.79,22,0.0,False,0,
+2018,4,art,2140.2799999999997,26,0.0,False,0,
+2018,4,arts_and_craftmanship,15.99,1,0.0,False,0,
+2018,4,audio,1545.18,20,0.0,False,0,
+2018,4,auto,28697.32,315,0.0,False,0,
+2018,4,baby,18511.66,201,0.0,False,0,
+2018,4,bed_bath_table,60070.8,711,0.0,False,0,
+2018,4,books_general_interest,2310.41,40,0.0,False,0,
+2018,4,books_imported,317.99,4,0.0,False,0,
+2018,4,books_technical,1172.1,23,0.0,False,0,
+2018,4,cds_dvds_musicals,65.0,1,0.0,False,0,
+2018,4,christmas_supplies,275.15,12,0.0,False,0,
+2018,4,cine_photo,521.74,5,0.0,False,0,
+2018,4,computers_accessories,46999.49,506,0.0,False,0,
+2018,4,consoles_games,1919.17,35,0.0,False,0,
+2018,4,construction_tools_construction,6632.44,79,0.0,False,0,
+2018,4,construction_tools_lights,4647.67,46,0.0,False,0,
+2018,4,construction_tools_safety,1816.0900000000001,21,0.0,False,0,
+2018,4,cool_stuff,27375.79,193,0.0,False,0,
+2018,4,costruction_tools_garden,1326.79,18,0.0,False,0,
+2018,4,costruction_tools_tools,1332.99,17,0.0,False,0,
+2018,4,diapers_and_hygiene,149.0,4,0.0,False,0,
+2018,4,drinks,2166.54,44,0.0,False,0,
+2018,4,dvds_blu_ray,92.5,5,0.0,False,0,
+2018,4,electronics,7368.34,205,0.0,False,0,
+2018,4,fashio_female_clothing,174.95000000000002,5,0.0,False,0,
+2018,4,fashion_bags_accessories,6629.96,98,0.0,False,0,
+2018,4,fashion_male_clothing,195.0,1,0.0,False,0,
+2018,4,fashion_shoes,1438.7,11,0.0,False,0,
+2018,4,fashion_sport,89.9,1,0.0,False,0,
+2018,4,fashion_underwear_beach,359.4,6,0.0,False,0,
+2018,4,fixed_telephony,1527.95,10,0.0,False,0,
+2018,4,flowers,158.4,3,0.0,False,0,
+2018,4,food,1665.43,40,0.0,False,0,
+2018,4,food_drink,605.0699999999999,18,0.0,False,0,
+2018,4,furniture_bedroom,1014.9,6,0.0,False,0,
+2018,4,furniture_decor,46713.69,562,0.0,False,0,
+2018,4,furniture_living_room,2655.01,27,0.0,False,0,
+2018,4,garden_tools,18964.6,264,0.0,False,0,
+2018,4,health_beauty,50504.9,602,0.0,False,0,
+2018,4,home_appliances,5401.68,91,0.0,False,0,
+2018,4,home_appliances_2,579.79,4,0.0,False,0,
+2018,4,home_comfort_2,12.9,1,0.0,False,0,
+2018,4,home_confort,1440.4,17,0.0,False,0,
+2018,4,home_construction,5665.94,70,0.0,False,0,
+2018,4,housewares,33507.81,431,0.0,False,0,
+2018,4,industry_commerce_and_business,5375.61,52,0.0,False,0,
+2018,4,kitchen_dining_laundry_garden_furniture,1440.87,15,0.0,False,0,
+2018,4,la_cuisine,280.0,2,0.0,False,0,
+2018,4,luggage_accessories,6286.49,54,0.0,False,0,
+2018,4,market_place,627.23,15,0.0,False,0,
+2018,4,music,530.89,4,0.0,False,0,
+2018,4,musical_instruments,3806.64,43,0.0,False,0,
+2018,4,office_furniture,16651.5,121,0.0,False,0,
+2018,4,party_supplies,43.8,2,0.0,False,0,
+2018,4,perfumery,14043.01,165,0.0,False,0,
+2018,4,pet_shop,14641.17,158,0.0,False,0,
+2018,4,signaling_and_security,1124.3,34,0.0,False,0,
+2018,4,small_appliances,2773.4,55,0.0,False,0,
+2018,4,small_appliances_home_oven_and_coffee,189.99,1,0.0,False,0,
+2018,4,sports_leisure,51668.57,554,0.0,False,0,
+2018,4,stationery,9265.45,148,0.0,False,0,
+2018,4,tablets_printing_image,52.0,1,0.0,False,0,
+2018,4,telephony,11163.07,273,0.0,False,0,
+2018,4,toys,15693.14,189,0.0,False,0,
+2018,4,watches_gifts,52266.4,432,0.0,False,0,
+2018,5,agro_industry_and_commerce,383.75,3,0.0,False,0,
+2018,5,air_conditioning,1851.3,14,0.0,False,0,
+2018,5,art,2491.97,34,0.0,False,0,
+2018,5,arts_and_craftmanship,89.8,1,0.0,False,0,
+2018,5,audio,931.68,18,0.0,False,0,
+2018,5,auto,20408.55,261,0.0,False,0,
+2018,5,baby,19162.61,221,0.0,False,0,
+2018,5,bed_bath_table,60562.130000000005,717,0.0,False,0,
+2018,5,books_general_interest,1735.93,42,0.0,False,0,
+2018,5,books_imported,410.92,10,0.0,False,0,
+2018,5,books_technical,3040.53,55,0.0,False,0,
+2018,5,christmas_supplies,524.53,6,0.0,False,0,
+2018,5,cine_photo,1234.3,16,0.0,False,0,
+2018,5,computers_accessories,38674.18,440,0.0,False,0,
+2018,5,consoles_games,2746.29,49,0.0,False,0,
+2018,5,construction_tools_construction,8502.57,107,0.0,False,0,
+2018,5,construction_tools_lights,4354.81,38,0.0,False,0,
+2018,5,construction_tools_safety,1405.72,14,0.0,False,0,
+2018,5,cool_stuff,22185.56,159,0.0,False,0,
+2018,5,costruction_tools_garden,688.28,15,0.0,False,0,
+2018,5,costruction_tools_tools,417.9,5,0.0,False,0,
+2018,5,diapers_and_hygiene,117.0,3,0.0,False,0,
+2018,5,drinks,2221.0,46,0.0,False,0,
+2018,5,dvds_blu_ray,439.94,7,0.0,False,0,
+2018,5,electronics,10100.89,226,0.0,False,0,
+2018,5,fashion_bags_accessories,7081.38,102,0.0,False,0,
+2018,5,fashion_male_clothing,129.99,1,0.0,False,0,
+2018,5,fashion_shoes,1217.7,9,0.0,False,0,
+2018,5,fashion_underwear_beach,207.39999999999998,6,0.0,False,0,
+2018,5,fixed_telephony,1547.2,15,0.0,False,0,
+2018,5,flowers,16.4,1,0.0,False,0,
+2018,5,food,1542.9299999999998,44,0.0,False,0,
+2018,5,food_drink,1239.44,25,0.0,False,0,
+2018,5,furniture_bedroom,547.98,4,0.0,False,0,
+2018,5,furniture_decor,48482.44,582,0.0,False,0,
+2018,5,furniture_living_room,1093.65,11,0.0,False,0,
+2018,5,garden_tools,17473.79,264,0.0,False,0,
+2018,5,health_beauty,57152.94,684,0.0,False,0,
+2018,5,home_appliances,3716.18,61,0.0,False,0,
+2018,5,home_appliances_2,1255.38,9,0.0,False,0,
+2018,5,home_confort,2000.7,19,0.0,False,0,
+2018,5,home_construction,7519.74,75,0.0,False,0,
+2018,5,housewares,47159.78,578,0.0,False,0,
+2018,5,industry_commerce_and_business,3780.99,40,0.0,False,0,
+2018,5,kitchen_dining_laundry_garden_furniture,960.39,10,0.0,False,0,
+2018,5,luggage_accessories,6038.57,47,0.0,False,0,
+2018,5,market_place,957.45,14,0.0,False,0,
+2018,5,music,729.0,5,0.0,False,0,
+2018,5,musical_instruments,3218.22,46,0.0,False,0,
+2018,5,office_furniture,12922.07,87,0.0,False,0,
+2018,5,party_supplies,100.69999999999999,4,0.0,False,0,
+2018,5,perfumery,17114.33,178,0.0,False,0,
+2018,5,pet_shop,10302.97,132,0.0,False,0,
+2018,5,signaling_and_security,683.5,7,0.0,False,0,
+2018,5,small_appliances,3093.53,39,0.0,False,0,
+2018,5,sports_leisure,39851.37,450,0.0,False,0,
+2018,5,stationery,10176.49,126,0.0,False,0,
+2018,5,tablets_printing_image,49.9,1,0.0,False,0,
+2018,5,telephony,8293.67,236,0.0,False,0,
+2018,5,toys,17331.18,192,0.0,False,0,
+2018,5,watches_gifts,67392.64,543,0.0,False,0,
+2018,6,agro_industry_and_commerce,774.8,6,0.0,False,0,
+2018,6,air_conditioning,1968.9,14,0.0,False,0,
+2018,6,art,2500.14,28,0.0,False,0,
+2018,6,audio,658.69,18,0.0,False,0,
+2018,6,auto,19988.99,263,0.0,False,0,
+2018,6,baby,19735.64,208,0.0,False,0,
+2018,6,bed_bath_table,61266.29,742,0.0,False,0,
+2018,6,books_general_interest,1522.99,33,0.0,False,0,
+2018,6,books_imported,468.17,9,0.0,False,0,
+2018,6,books_technical,1747.43,26,0.0,False,0,
+2018,6,christmas_supplies,306.19,7,0.0,False,0,
+2018,6,cine_photo,435.85,13,0.0,False,0,
+2018,6,computers_accessories,35299.48,388,0.0,False,0,
+2018,6,consoles_games,2524.61,37,0.0,False,0,
+2018,6,construction_tools_construction,7591.900000000001,92,0.0,False,0,
+2018,6,construction_tools_lights,3983.42,43,0.0,False,0,
+2018,6,construction_tools_safety,1202.91,12,0.0,False,0,
+2018,6,cool_stuff,13571.1,93,0.0,False,0,
+2018,6,costruction_tools_garden,799.44,11,0.0,False,0,
+2018,6,costruction_tools_tools,527.0,4,0.0,False,0,
+2018,6,diapers_and_hygiene,321.0,7,0.0,False,0,
+2018,6,drinks,1567.07,33,0.0,False,0,
+2018,6,dvds_blu_ray,382.88,6,0.0,False,0,
+2018,6,electronics,8775.7,189,0.0,False,0,
+2018,6,fashion_bags_accessories,5231.05,79,0.0,False,0,
+2018,6,fashion_childrens_clothes,89.99,1,0.0,False,0,
+2018,6,fashion_male_clothing,447.8,7,0.0,False,0,
+2018,6,fashion_shoes,1230.58,10,0.0,False,0,
+2018,6,fashion_underwear_beach,129.3,7,0.0,False,0,
+2018,6,fixed_telephony,1660.33,16,0.0,False,0,
+2018,6,flowers,108.0,2,0.0,False,0,
+2018,6,food,1371.18,24,0.0,False,0,
+2018,6,food_drink,293.85,11,0.0,False,0,
+2018,6,furniture_bedroom,698.99,6,0.0,False,0,
+2018,6,furniture_decor,33532.41,384,0.0,False,0,
+2018,6,furniture_living_room,2435.83,26,0.0,False,0,
+2018,6,garden_tools,13773.83,175,0.0,False,0,
+2018,6,health_beauty,64484.67,792,0.0,False,0,
+2018,6,home_appliances,4105.95,61,0.0,False,0,
+2018,6,home_appliances_2,1105.73,12,0.0,False,0,
+2018,6,home_comfort_2,25.8,2,0.0,False,0,
+2018,6,home_confort,2386.49,16,0.0,False,0,
+2018,6,home_construction,6825.54,65,0.0,False,0,
+2018,6,housewares,40176.89,546,0.0,False,0,
+2018,6,industry_commerce_and_business,2280.9,25,0.0,False,0,
+2018,6,kitchen_dining_laundry_garden_furniture,3029.4300000000003,28,0.0,False,0,
+2018,6,luggage_accessories,3611.9900000000002,33,0.0,False,0,
+2018,6,market_place,556.46,7,0.0,False,0,
+2018,6,music,109.08,3,0.0,False,0,
+2018,6,musical_instruments,3087.25,33,0.0,False,0,
+2018,6,office_furniture,9137.380000000001,67,0.0,False,0,
+2018,6,party_supplies,84.80000000000001,2,0.0,False,0,
+2018,6,perfumery,17730.94,159,0.0,False,0,
+2018,6,pet_shop,14913.0,169,0.0,False,0,
+2018,6,signaling_and_security,1953.88,19,0.0,False,0,
+2018,6,small_appliances,3026.84,35,0.0,False,0,
+2018,6,sports_leisure,35275.32,398,0.0,False,0,
+2018,6,stationery,10981.53,164,0.0,False,0,
+2018,6,tablets_printing_image,50.0,1,0.0,False,0,
+2018,6,telephony,7898.51,197,0.0,False,0,
+2018,6,toys,13819.28,176,0.0,False,0,
+2018,6,watches_gifts,47150.17,412,0.0,False,0,
+2018,7,agro_industry_and_commerce,1593.71,17,0.0,True,1,Retards de livraison
+2018,7,air_conditioning,1824.66,15,0.0,True,1,Retards de livraison
+2018,7,art,1843.1999999999998,21,0.0,True,1,Retards de livraison
+2018,7,arts_and_craftmanship,654.57,11,0.0,True,1,Retards de livraison
+2018,7,audio,1463.65,21,0.0,True,1,Retards de livraison
+2018,7,auto,25010.37,314,0.0,True,1,Retards de livraison
+2018,7,baby,17184.27,206,0.0,True,1,Retards de livraison
+2018,7,bed_bath_table,48294.54,608,0.0,True,1,Retards de livraison
+2018,7,books_general_interest,1133.05,19,0.0,True,1,Retards de livraison
+2018,7,books_imported,357.78999999999996,7,0.0,True,1,Retards de livraison
+2018,7,books_technical,1994.93,26,0.0,True,1,Retards de livraison
+2018,7,christmas_supplies,229.56,7,0.0,True,1,Retards de livraison
+2018,7,cine_photo,502.55,6,0.0,True,1,Retards de livraison
+2018,7,computers_accessories,30609.62,395,0.0,True,1,Retards de livraison
+2018,7,consoles_games,2564.91,36,0.0,True,1,Retards de livraison
+2018,7,construction_tools_construction,7806.59,100,0.0,True,1,Retards de livraison
+2018,7,construction_tools_lights,4931.62,50,0.0,True,1,Retards de livraison
+2018,7,construction_tools_safety,999.95,13,0.0,True,1,Retards de livraison
+2018,7,cool_stuff,13924.720000000001,105,0.0,True,1,Retards de livraison
+2018,7,costruction_tools_garden,1427.66,21,0.0,True,1,Retards de livraison
+2018,7,costruction_tools_tools,1404.2,9,0.0,True,1,Retards de livraison
+2018,7,diapers_and_hygiene,121.0,3,0.0,True,1,Retards de livraison
+2018,7,drinks,1260.17,16,0.0,True,1,Retards de livraison
+2018,7,dvds_blu_ray,83.99,1,0.0,True,1,Retards de livraison
+2018,7,electronics,7992.05,148,0.0,True,1,Retards de livraison
+2018,7,fashion_bags_accessories,4215.17,70,0.0,True,1,Retards de livraison
+2018,7,fashion_male_clothing,208.7,5,0.0,True,1,Retards de livraison
+2018,7,fashion_shoes,820.19,5,0.0,True,1,Retards de livraison
+2018,7,fashion_underwear_beach,109.8,2,0.0,True,1,Retards de livraison
+2018,7,fixed_telephony,864.39,6,0.0,True,1,Retards de livraison
+2018,7,flowers,47.989999999999995,2,0.0,True,1,Retards de livraison
+2018,7,food,3378.17,64,0.0,True,1,Retards de livraison
+2018,7,food_drink,778.73,17,0.0,True,1,Retards de livraison
+2018,7,furniture_bedroom,1386.9,10,0.0,True,1,Retards de livraison
+2018,7,furniture_decor,39365.81,422,0.0,True,1,Retards de livraison
+2018,7,furniture_living_room,3558.8199999999997,47,0.0,True,1,Retards de livraison
+2018,7,furniture_mattress_and_upholstery,129.9,1,0.0,True,1,Retards de livraison
+2018,7,garden_tools,11360.43,157,0.0,True,1,Retards de livraison
+2018,7,health_beauty,58529.55,684,0.0,True,1,Retards de livraison
+2018,7,home_appliances,5173.03,78,0.0,True,1,Retards de livraison
+2018,7,home_appliances_2,1649.13,13,0.0,True,1,Retards de livraison
+2018,7,home_comfort_2,38.7,3,0.0,True,1,Retards de livraison
+2018,7,home_confort,2577.48,22,0.0,True,1,Retards de livraison
+2018,7,home_construction,6700.25,60,0.0,True,1,Retards de livraison
+2018,7,housewares,43553.24,529,0.0,True,1,Retards de livraison
+2018,7,industry_commerce_and_business,1213.21,12,0.0,True,1,Retards de livraison
+2018,7,kitchen_dining_laundry_garden_furniture,1768.15,19,0.0,True,1,Retards de livraison
+2018,7,luggage_accessories,4807.12,51,0.0,True,1,Retards de livraison
+2018,7,market_place,186.78,4,0.0,True,1,Retards de livraison
+2018,7,music,85.80000000000001,2,0.0,True,1,Retards de livraison
+2018,7,musical_instruments,2913.03,29,0.0,True,1,Retards de livraison
+2018,7,office_furniture,10647.58,73,0.0,True,1,Retards de livraison
+2018,7,party_supplies,57.5,2,0.0,True,1,Retards de livraison
+2018,7,perfumery,15890.07,188,0.0,True,1,Retards de livraison
+2018,7,pet_shop,13866.52,147,0.0,True,1,Retards de livraison
+2018,7,signaling_and_security,3105.19,27,0.0,True,1,Retards de livraison
+2018,7,small_appliances,2785.9900000000002,35,0.0,True,1,Retards de livraison
+2018,7,small_appliances_home_oven_and_coffee,565.67,9,0.0,True,1,Retards de livraison
+2018,7,sports_leisure,36648.72,430,0.0,True,1,Retards de livraison
+2018,7,stationery,13447.49,183,0.0,True,1,Retards de livraison
+2018,7,telephony,13974.17,205,0.0,True,1,Retards de livraison
+2018,7,toys,12693.49,142,0.0,True,1,Retards de livraison
+2018,7,watches_gifts,50784.020000000004,449,0.0,True,1,Retards de livraison
+2018,8,agro_industry_and_commerce,806.1,12,0.0,True,1,Retards de livraison
+2018,8,air_conditioning,1925.2,17,0.0,True,1,Retards de livraison
+2018,8,art,1481.3899999999999,18,0.0,True,1,Retards de livraison
+2018,8,arts_and_craftmanship,612.27,8,0.0,True,1,Retards de livraison
+2018,8,audio,1519.4,25,0.0,True,1,Retards de livraison
+2018,8,auto,27583.59,351,0.0,True,1,Retards de livraison
+2018,8,baby,16837.98,206,0.0,True,1,Retards de livraison
+2018,8,bed_bath_table,49125.55,636,0.0,True,1,Retards de livraison
+2018,8,books_general_interest,1564.78,36,0.0,True,1,Retards de livraison
+2018,8,books_technical,1483.79,29,0.0,True,1,Retards de livraison
+2018,8,christmas_supplies,234.37,9,0.0,True,1,Retards de livraison
+2018,8,cine_photo,595.2900000000001,9,0.0,True,1,Retards de livraison
+2018,8,computers,34.5,1,0.0,True,1,Retards de livraison
+2018,8,computers_accessories,33139.58,397,0.0,True,1,Retards de livraison
+2018,8,consoles_games,4381.31,59,0.0,True,1,Retards de livraison
+2018,8,construction_tools_construction,12946.39,149,0.0,True,1,Retards de livraison
+2018,8,construction_tools_lights,5966.53,55,0.0,True,1,Retards de livraison
+2018,8,construction_tools_safety,2089.1,20,0.0,True,1,Retards de livraison
+2018,8,cool_stuff,11876.3,111,0.0,True,1,Retards de livraison
+2018,8,costruction_tools_garden,1603.8600000000001,21,0.0,True,1,Retards de livraison
+2018,8,costruction_tools_tools,1255.77,14,0.0,True,1,Retards de livraison
+2018,8,diapers_and_hygiene,231.89,3,0.0,True,1,Retards de livraison
+2018,8,drinks,1423.26,27,0.0,True,1,Retards de livraison
+2018,8,dvds_blu_ray,8.9,1,0.0,True,1,Retards de livraison
+2018,8,electronics,7163.68,114,0.0,True,1,Retards de livraison
+2018,8,fashio_female_clothing,129.97,3,0.0,True,1,Retards de livraison
+2018,8,fashion_bags_accessories,7487.63,124,0.0,True,1,Retards de livraison
+2018,8,fashion_male_clothing,381.69000000000005,3,0.0,True,1,Retards de livraison
+2018,8,fashion_shoes,471.29999999999995,3,0.0,True,1,Retards de livraison
+2018,8,fashion_sport,69.9,1,0.0,True,1,Retards de livraison
+2018,8,fashion_underwear_beach,160.0,1,0.0,True,1,Retards de livraison
+2018,8,fixed_telephony,773.29,7,0.0,True,1,Retards de livraison
+2018,8,food,8174.18,115,0.0,True,1,Retards de livraison
+2018,8,food_drink,1028.61,21,0.0,True,1,Retards de livraison
+2018,8,furniture_bedroom,1702.0,11,0.0,True,1,Retards de livraison
+2018,8,furniture_decor,35504.75,416,0.0,True,1,Retards de livraison
+2018,8,furniture_living_room,3727.65,36,0.0,True,1,Retards de livraison
+2018,8,garden_tools,9123.71,126,0.0,True,1,Retards de livraison
+2018,8,health_beauty,59228.8,721,0.0,True,1,Retards de livraison
+2018,8,home_appliances,4014.85,61,0.0,True,1,Retards de livraison
+2018,8,home_appliances_2,1113.0,6,0.0,True,1,Retards de livraison
+2018,8,home_confort,2241.28,16,0.0,True,1,Retards de livraison
+2018,8,home_construction,5218.1,46,0.0,True,1,Retards de livraison
+2018,8,housewares,42750.15,591,0.0,True,1,Retards de livraison
+2018,8,industry_commerce_and_business,1134.69,9,0.0,True,1,Retards de livraison
+2018,8,kitchen_dining_laundry_garden_furniture,1642.47,19,0.0,True,1,Retards de livraison
+2018,8,luggage_accessories,5961.75,62,0.0,True,1,Retards de livraison
+2018,8,market_place,949.27,8,0.0,True,1,Retards de livraison
+2018,8,music,198.81,5,0.0,True,1,Retards de livraison
+2018,8,musical_instruments,2788.57,35,0.0,True,1,Retards de livraison
+2018,8,office_furniture,2164.17,18,0.0,True,1,Retards de livraison
+2018,8,party_supplies,1285.29,14,0.0,True,1,Retards de livraison
+2018,8,perfumery,21542.25,211,0.0,True,1,Retards de livraison
+2018,8,pet_shop,15663.08,185,0.0,True,1,Retards de livraison
+2018,8,signaling_and_security,1505.69,21,0.0,True,1,Retards de livraison
+2018,8,small_appliances,1730.12,17,0.0,True,1,Retards de livraison
+2018,8,small_appliances_home_oven_and_coffee,1406.72,15,0.0,True,1,Retards de livraison
+2018,8,sports_leisure,34058.3,443,0.0,True,1,Retards de livraison
+2018,8,stationery,14222.65,166,0.0,True,1,Retards de livraison
+2018,8,telephony,23780.2,252,0.0,True,1,Retards de livraison
+2018,8,toys,12977.59,155,0.0,True,1,Retards de livraison
+2018,8,watches_gifts,39810.4,361,0.0,True,1,Retards de livraison

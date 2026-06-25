@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Ecommerce — Monitoring &amp; Prediction</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.x/dist/tabler-icons.min.css"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#d1dde0;--bg2:#0F6E56;--bg3:#75b1ad;
+  --text:#1a1a18;--text2:#111117;--text3:#9b9b96;
+  --bd:rgba(0,0,0,.11);--bd2:rgba(0,0,0,.20);
+  --teal:#1D9E75;--teal-l:#E1F5EE;--teal-d:#0F6E56;
+  --amb-l:#FAEEDA;--amb:#854F0B;
+  --cor-l:#FAECE7;--cor:#993C1D;
+  --red-l:#FCEBEB;--red:#A32D2D;
+  --rmd:8px;--rlg:12px;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  font-size:14px;color:var(--text);
+}
+body{background:var(--bg3);min-height:100vh;display:flex;flex-direction:column}
+
+/* TOPBAR */
+.topbar{background:var(--bg);border-bottom:.5px solid var(--bd);display:flex;align-items:center;gap:14px;padding:0 26px;height:52px;position:sticky;top:0;z-index:100}
+.logo{font-size:15px;font-weight:600;display:flex;align-items:center;gap:7px}
+.logo i{font-size:20px;color:var(--teal)}
+.lsep{font-size:12px;color:var(--text2);font-weight:400;border-left:.5px solid var(--bd2);padding-left:10px;margin-left:4px}
+.nav{display:flex;gap:3px;margin-left:auto}
+.nb{padding:6px 15px;border-radius:var(--rmd);font-size:13px;border:.5px solid transparent;cursor:pointer;background:transparent;color:var(--text2);display:flex;align-items:center;gap:5px;transition:all .12s;font-family:inherit}
+.nb:hover{background:var(--bg2);color:var(--text)}
+.nb.active{background:var(--bg2);border-color:var(--bd2);color:var(--text);font-weight:500}
+.srow{display:flex;align-items:center;gap:7px;margin-left:14px;padding-left:14px;border-left:.5px solid var(--bd)}
+.srow input{padding:6px 9px;border:.5px solid var(--bd2);border-radius:var(--rmd);font-size:12px;font-family:inherit;background:var(--bg);color:var(--text);width:210px;outline:none}
+.srow input:focus{border-color:var(--teal)}
+.sdot{width:7px;height:7px;border-radius:50%;background:#ccc;flex-shrink:0}
+.sdot.ok{background:var(--teal)}.sdot.err{background:var(--cor)}.sdot.loading{background:#f6ad55;animation:pulse .8s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+
+/* LAYOUT */
+.content{max-width:1100px;width:100%;margin:0 auto;padding:24px}
+.section{display:none}.section.visible{display:block}
+
+/* PAGE HEADER */
+.ph{margin-bottom:20px}
+.ph h1{font-size:19px;font-weight:500;margin-bottom:3px}
+.ph p{font-size:13px;color:var(--text2)}
+
+/* BTN */
+.btn{padding:7px 14px;border-radius:var(--rmd);font-size:13px;border:.5px solid var(--bd2);background:var(--bg);color:var(--text);cursor:pointer;display:inline-flex;align-items:center;gap:5px;font-family:inherit;transition:background .12s;font-weight:500;white-space:nowrap}
+.btn:hover{background:var(--bg2)}.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn-teal{background:var(--teal);color:#fff;border-color:var(--teal)}.btn-teal:hover{background:var(--teal-d)}
+
+/* STAT GRID */
+.sgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:20px}
+.sc{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--rlg);padding:14px}
+.slbl{font-size:11px;color:var(--text2);text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px;display:flex;align-items:center;gap:4px}
+.slbl i{font-size:12px}.sval{font-size:24px;font-weight:500;line-height:1}
+.ssub{font-size:11px;color:var(--text3);margin-top:4px}
+
+/* TABLE CARD */
+.tcard{border:.5px solid var(--bd);border-radius:var(--rlg);overflow:hidden;background:var(--bg);margin-bottom:20px}
+.thead{display:flex;align-items:center;justify-content:space-between;padding:11px 15px;border-bottom:.5px solid var(--bd);gap:10px}
+.thead-title{font-size:11px;font-weight:500;color:var(--text2);text-transform:uppercase;letter-spacing:.04em;display:flex;align-items:center;gap:6px}
+.tscroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13px}
+thead tr{background:var(--bg2)}
+th{padding:9px 13px;text-align:left;font-size:11px;color:var(--text2);font-weight:500;text-transform:uppercase;letter-spacing:.04em;white-space:nowrap;border-bottom:.5px solid var(--bd)}
+td{padding:9px 13px;border-bottom:.5px solid var(--bd);vertical-align:middle}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--bg2)}
+
+/* BADGE */
+.bdg{display:inline-block;padding:3px 9px;border-radius:20px;font-size:11px;font-weight:500}
+.b0{background:var(--teal-l);color:var(--teal-d)}
+.b1{background:var(--amb-l);color:var(--amb)}
+.b2{background:var(--cor-l);color:var(--cor)}
+.b3{background:#fce4e4;color:#c0392b}
+.b4{background:#f5c6c6;color:#922b21}
+
+/* ALERTS */
+.ag{display:grid;gap:9px}
+.ai{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--rlg);padding:13px 15px;display:flex;align-items:center;gap:12px}
+.aw{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:16px}
+.aw1{background:var(--amb-l);color:var(--amb)}.aw2{background:var(--cor-l);color:var(--cor)}.aw3{background:#fce4e4;color:#c0392b}
+.am{flex:1}.ac{font-size:13px;font-weight:500;margin-bottom:2px}.ad{font-size:12px;color:var(--text2)}
+.ar{text-align:right;flex-shrink:0}
+
+/* FILTER ROW */
+.frow{display:flex;gap:9px;align-items:center;margin-bottom:14px;flex-wrap:wrap}
+.frow select,.frow input{padding:7px 10px;border:.5px solid var(--bd2);border-radius:var(--rmd);font-size:13px;background:var(--bg);color:var(--text);font-family:inherit;outline:none}
+.frow select:focus,.frow input:focus{border-color:var(--teal)}
+
+/* PREDICTION FORM */
+.fc{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--rlg);padding:20px;margin-bottom:16px}
+.fsl{font-size:11px;font-weight:500;color:var(--text2);text-transform:uppercase;letter-spacing:.05em;margin-bottom:13px;display:flex;align-items:center;gap:6px}
+.fg{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-bottom:16px}
+.ff{display:flex;flex-direction:column;gap:5px}
+.ff label{font-size:12px;color:var(--text2);font-weight:500;display:flex;align-items:center;gap:4px}
+.ff select,.ff input{padding:8px 10px;border:.5px solid var(--bd2);border-radius:var(--rmd);font-size:13px;background:var(--bg);color:var(--text);font-family:inherit;outline:none;transition:border-color .12s}
+.ff select:focus,.ff input:focus{border-color:var(--teal)}
+.hint{font-size:11px;color:var(--text3);margin-top:2px}
+
+/* RESULT */
+.rc{display:none;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--rlg);overflow:hidden;margin-bottom:16px;animation:fi .2s ease}
+.rc.visible{display:block}
+@keyframes fi{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+.rtop{padding:16px 20px;border-bottom:.5px solid var(--bd);display:flex;align-items:center;justify-content:space-between;gap:10px}
+.rtl{display:flex;align-items:center;gap:10px}
+.riw{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:17px}
+.riok{background:var(--teal-l);color:var(--teal)}.riwarn{background:var(--amb-l);color:var(--amb)}.rialert{background:var(--cor-l);color:var(--cor)}
+.rtop h2{font-size:14px;font-weight:500}
+.rts{font-size:12px;color:var(--text2)}
+.rmet{display:grid;grid-template-columns:1fr 1fr 1fr;border-bottom:.5px solid var(--bd)}
+.rm{padding:16px 20px}
+.rm:not(:last-child){border-right:.5px solid var(--bd)}
+.rml{font-size:11px;color:var(--text2);text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px}
+.rmv{font-size:24px;font-weight:500;line-height:1}
+.rms{font-size:11px;color:var(--text3);margin-top:4px}
+.rmsg{padding:13px 20px;display:flex;align-items:flex-start;gap:8px;font-size:13px}
+.rmsg i{font-size:15px;flex-shrink:0;margin-top:1px}
+.mok{background:var(--teal-l);color:var(--teal-d)}.mwarn{background:var(--amb-l);color:var(--amb)}.malert{background:var(--cor-l);color:var(--cor)}
+
+/* PILLS */
+.pills{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.pill{font-size:11px;padding:3px 9px;border-radius:20px;border:.5px solid var(--bd2);color:var(--text2);display:flex;align-items:center;gap:4px}
+.pill i{font-size:12px}
+
+/* LOADING + ERROR */
+.ld{display:none;align-items:center;justify-content:center;gap:9px;padding:20px;font-size:13px;color:var(--text2)}
+.ld.v{display:flex}
+.sp{width:14px;height:14px;border:2px solid var(--bd2);border-top-color:var(--teal);border-radius:50%;animation:sp .65s linear infinite;flex-shrink:0}
+@keyframes sp{to{transform:rotate(360deg)}}
+.eb{background:var(--red-l);color:var(--red);border:.5px solid rgba(163,45,45,.2);border-radius:var(--rmd);padding:9px 13px;font-size:13px;display:none;align-items:center;gap:7px;margin-bottom:13px}
+.eb.v{display:flex}
+.empty{text-align:center;padding:36px;color:var(--text2)}
+.empty i{font-size:38px;display:block;margin-bottom:10px;opacity:.28}
+
+/* KPIs Grid */
+#kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:20px}
+
+/* EVALUATION */
+.eval-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-bottom:16px}
+.eval-full{grid-column:1/-1}
+
+@media(max-width:600px){
+  .fg{grid-template-columns:1fr}.rmet{grid-template-columns:1fr}
+  .rm:not(:last-child){border-right:none;border-bottom:.5px solid var(--bd)}
+  .sgrid{grid-template-columns:1fr 1fr}.srow{display:none}
+  .content{padding:14px}
+  .eval-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="logo">
+    <span class="lsep">E-commerce Analytics</span>
+  </div>
+  <nav class="nav">
+    <button class="nb active" id="btn-monitoring" onclick="switchTab('monitoring')"><i></i>Monitoring</button>
+    <button class="nb" id="btn-details" onclick="switchTab('details')"><i></i>Détails</button>
+    <button class="nb" id="btn-prediction" onclick="switchTab('prediction')"><i></i>Prédiction</button>
+    <button class="nb" id="btn-evaluate" onclick="switchTab('evaluate')"><i></i>Évaluation</button>
+  </nav>
+  <div class="srow">
+    <div class="sdot loading" id="dot"></div>
+    <span style="font-size:12px;color:var(--text2)" id="status-label">Connexion...</span>
+  </div>
+</header>
+
+<div class="content">
+
+<!-- SECTION MONITORING -->
+<section class="section visible" id="section-monitoring">
+  <div class="ph"><h1>Monitoring des performances</h1><p>Vue d'ensemble Power BI</p></div>
+  
+  <div class="tcard" style="padding: 40px; text-align: center; height: 300px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <h3 style="margin-bottom: 15px;">Tableau de bord Power BI</h3>
+    <p style="margin-bottom: 25px; color: var(--text2);">Cliquez ci-dessous pour accéder au rapport détaillé dans une nouvelle fenêtre.</p>
+    <a href="https://app.powerbi.com/groups/me/reports/f052365f-6773-422e-a3de-101de1578191/4350d1bea95eadf00688?experience=power-bi" 
+       target="_blank" 
+       class="btn btn-teal" 
+       style="padding: 12px 24px; font-size: 16px;">
+       <i class="ti ti-external-link"></i> Ouvrir le tableau de bord
+    </a>
+  </div>
+
+  <div class="eb" id="err-m"><i class="ti ti-alert-circle"></i><span id="err-m-t"></span></div>
+
+  <!-- KPIs -->
+  <!-- <div id="kpi-grid"><div class="empty"><div class="sp"></div><span>Chargement des KPIs...</span></div></div> -->
+
+  <div class="tcard">
+    <div class="thead">
+      <span class="thead-title"><i class="ti ti-alert-triangle" style="color:var(--cor)"></i>Alertes de sous-performance</span>
+      <button class="btn" onclick="loadAlerts()"><i class="ti ti-refresh"></i>Actualiser</button>
+    </div>
+    <div style="padding:13px" id="alerts-c"><div class="empty"><i class="ti ti-loader"></i>Chargement des alertes...</div></div>
+  </div>
+</section>
+
+<!-- SECTION DETAILS -->
+<section class="section" id="section-details">
+  <div class="ph"><h1>Détails par catégorie</h1><p>Analyse détaillée des performances par catégorie produit</p></div>
+  <div class="eb" id="err-d"><i class="ti ti-alert-circle"></i><span id="err-d-t"></span></div>
+
+  <div class="frow">
+    <select id="f-year"><option value="">Toutes les années</option></select>
+    <select id="f-month"><option value="">Tous les mois</option>
+      <option value="1">Janvier</option><option value="2">Février</option>
+      <option value="3">Mars</option><option value="4">Avril</option>
+      <option value="5">Mai</option><option value="6">Juin</option>
+      <option value="7">Juillet</option><option value="8">Août</option>
+      <option value="9">Septembre</option><option value="10">Octobre</option>
+      <option value="11">Novembre</option><option value="12">Décembre</option>
+    </select>
+    <button class="btn" onclick="loadCategories()"><i class="ti ti-refresh"></i>Actualiser</button>
+    <input type="text" id="s-cat" placeholder="Rechercher..." oninput="filterTable()" style="margin-left:auto;width:160px"/>
+    <span style="font-size:12px;color:var(--text3)" id="ts"></span>
+  </div>
+
+  <div class="tcard">
+    <div class="thead">
+      <span class="thead-title"><i class="ti ti-table"></i>Détail par catégorie</span>
+    </div>
+    <div class="tscroll">
+      <table><thead><tr><th>Catégorie</th><th>Année</th><th>Mois</th><th>CA (R$)</th><th>Volume</th><th>Annulation</th><th>Niveau</th><th>Alertes</th></tr></thead>
+      <tbody id="t-body"><tr><td colspan="8"><div class="empty"><i class="ti ti-loader"></i>Chargement des données...</div></td></tr></tbody></table>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION PREDICTION -->
+<section class="section" id="section-prediction">
+  <div class="ld" id="pld"><div class="sp"></div><span>Calcul en cours...</span></div>
+
+  <div class="ph"><h1>Prédiction CA — mois suivant</h1></div>
+  <div class="eb" id="err-p"><i class="ti ti-alert-circle"></i><span id="err-p-t"></span></div>
+
+  <div class="fc">
+    <div class="fsl"><i class="ti ti-adjustments-horizontal"></i>Paramètres d'entrée</div>
+    <div class="fg">
+      <div class="ff">
+        <label><i class="ti ti-tag"></i>Catégorie produit</label>
+        <select id="f-cat"><option value="">— chargement des catégories —</option></select>
+      </div>
+      <div class="ff">
+        <label><i class="ti ti-calendar"></i>Mois à prédire</label>
+        <select id="f-mois">
+          <option value="1">Janvier</option><option value="2">Février</option>
+          <option value="3">Mars</option><option value="4">Avril</option>
+          <option value="5">Mai</option><option value="6">Juin</option>
+          <option value="7">Juillet</option><option value="8">Août</option>
+          <option value="9">Septembre</option><option value="10">Octobre</option>
+          <option value="11" selected>Novembre</option><option value="12">Décembre</option>
+        </select>
+        <span class="hint">Mois dont vous voulez prédire le CA</span>
+      </div>
+    </div>
+    <button class="btn btn-teal" id="pbtn" onclick="runPrediction()">
+      <i class="ti ti-sparkles"></i>Lancer le diagnostic prédictif
+    </button>
+  </div>
+
+  <div class="rc" id="rc">
+    <div class="rtop">
+      <div class="rtl">
+        <div class="riw" id="riw"><i class="ti" id="ri"></i></div>
+        <div><h2 id="r-cat">—</h2><div class="rts" id="r-month">—</div></div>
+      </div>
+      <span class="bdg" id="r-bdg">—</span>
+    </div>
+    <div class="rmet">
+      <div class="rm"><div class="rml">CA prédit</div><div class="rmv" id="r-ca">—</div><div class="rms"></div></div>
+      <div class="rm"><div class="rml">Volume · Annulation</div><div class="rmv" id="r-vol">—</div><div class="rms" id="r-can-s">—</div></div>
+      <div class="rm"><div class="rml">Niveau de risque</div><div class="rmv" id="r-niv">—</div><div class="rms" id="r-niv-sub">—</div></div>
+    </div>
+    <div class="rmsg" id="rmsg"><i class="ti" id="rmi"></i><span id="rmt">—</span></div>
+  </div>
+</section>
+
+<!-- SECTION EVALUATE -->
+<section class="section" id="section-evaluate">
+  <div class="ph"><h1>Évaluation personnalisée</h1><p>Appliquez le modèle sur des données spécifiques</p></div>
+  <div class="eb" id="err-e"><i class="ti ti-alert-circle"></i><span id="err-e-t"></span></div>
+
+  <div class="fc">
+    <div class="fsl"><i class="ti ti-settings"></i>Entrez les données à évaluer</div>
+    <form id="evalForm" onsubmit="runEvaluation(event)">
+      <div class="eval-grid">
+        <div class="ff">
+          <label><i class="ti ti-tag"></i>Catégorie *</label>
+          <input type="text" id="eval-category" placeholder="ex: electronics" required>
+        </div>
+        <div class="ff">
+          <label><i class="ti ti-calendar"></i>Mois *</label>
+          <input type="number" id="eval-month" placeholder="1-12" min="1" max="12" required>
+        </div>
+        <div class="ff">
+          <label><i class="ti ti-coin"></i>CA (R$) *</label>
+          <input type="number" id="eval-ca" placeholder="42180.00" step="0.01" required>
+        </div>
+        <div class="ff">
+          <label><i class="ti ti-percent"></i>Taux d'annulation *</label>
+          <input type="number" id="eval-taux" placeholder="0.024" step="0.001" required>
+        </div>
+        <div class="ff eval-full">
+          <label><i class="ti ti-package"></i>Volume *</label>
+          <input type="number" id="eval-volume" placeholder="612" required>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-teal" style="width:100%">
+        <i class="ti ti-chart-bar"></i>Évaluer avec le modèle
+      </button>
+    </form>
+  </div>
+
+  <div class="rc" id="rc-eval">
+    <div class="rtop">
+      <div class="rtl">
+        <div class="riw" id="riw-e"><i class="ti" id="ri-e"></i></div>
+        <div><h2 id="r-cat-e">—</h2><div class="rts" id="r-month-e">—</div></div>
+      </div>
+      <span class="bdg" id="r-bdg-e">—</span>
+    </div>
+    <div class="rmet">
+      <div class="rm"><div class="rml">CA</div><div class="rmv" id="r-ca-e">—</div><div class="rms">entré</div></div>
+      <div class="rm"><div class="rml">CA Growth</div><div class="rmv" id="r-growth-e">—</div><div class="rms">calculé</div></div>
+      <div class="rm"><div class="rml">Confiance</div><div class="rmv" id="r-conf-e">—</div><div class="rms" id="r-niv-sub-e">—</div></div>
+    </div>
+    <div class="rmet">
+      <div class="rm"><div class="rml">Volume</div><div class="rmv" id="r-vol-e">—</div><div class="rms">entré</div></div>
+      <div class="rm"><div class="rml">Taux d'annulation</div><div class="rmv" id="r-taux-e">—</div><div class="rms">entré</div></div>
+      <div class="rm"><div class="rml">Niveau</div><div class="rmv" id="r-niv-e">—</div><div class="rms">prédit</div></div>
+    </div>
+    <div class="rmsg" id="rmsg-e"><i class="ti" id="rmi-e"></i><span id="rmt-e">—</span></div>
+  </div>
+</section>
+
+</div>
+
+<script>
+const MN=['','Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
+let API='http://localhost:5000';
+let allRows=[];
+
+function G(id){return document.getElementById(id)}
+function switchTab(t){
+  document.querySelectorAll('.section').forEach(s=>s.classList.remove('visible'));
+  document.querySelectorAll('.nb').forEach(b=>b.classList.remove('active'));
+  G('section-'+t).classList.add('visible'); 
+  G('btn-'+t).classList.add('active');
+}
+
+
+
+async function autoConnect(){
+  const dot=G('dot');
+  const label=G('status-label');
+  dot.className='sdot loading';
+  label.textContent='Connexion à '+API+'...';
+  
+  try{
+    const r=await fetch(API+'/monitoring/health',{signal:AbortSignal.timeout(5000)});
+    if(r.ok){
+      dot.className='sdot ok';
+      label.textContent=' Connecté';
+      loadAll();
+    } else {
+      dot.className='sdot err';
+      label.textContent=' Erreur '+r.status;
+      showErr('m','Erreur de connexion : '+r.status);
+    }
+  } catch(e){
+    dot.className='sdot err';
+    label.textContent='❌ Serveur indisponible';
+    showErr('m','Serveur inaccessible : '+e.message);
+  }
+}
+
+
+// chargement de toutes les donnees
+
+
+function loadAll(){
+  // loadKPIs();
+  loadCategories();
+  loadAlerts();
+  loadPredCats();
+}
+
+
+// les kpis
+
+async function loadKPIs(){
+  try{
+    const d=await fetchJ(API+'/monitoring/kpis');
+    const nv=d.repartition_niveaux||{};
+    G('kpi-grid').innerHTML=`
+      <div class="sc"><div class="slbl"><i class="ti ti-coin"></i>CA Total</div><div class="sval">R$\u00A0${fmt(d.ca_total)}</div><div class="ssub">Moy/ligne R$\u00A0${fmt(d.ca_moyen)}</div></div>
+      <div class="sc"><div class="slbl"><i class="ti ti-shopping-cart"></i>Volume total</div><div class="sval">${fi(d.volume_total)}</div><div class="ssub">commandes</div></div>
+      <div class="sc"><div class="slbl"><i class="ti ti-package"></i>Catégories</div><div class="sval">${d.nb_categories}</div><div class="ssub">actives</div></div>
+      <div class="sc"><div class="slbl"><i class="ti ti-x"></i>Taux annulation</div><div class="sval">${(d.taux_annulation_moyen*100).toFixed(1)}%</div><div class="ssub">moyen global</div></div>
+      <div class="sc"><div class="slbl"><i class="ti ti-check"></i>Niveau 0 OK</div><div class="sval">${nv['0']||0}</div><div class="ssub">lignes normales</div></div>
+      <div class="sc"><div class="slbl"><i class="ti ti-alert-triangle"></i>Sous-performance</div><div class="sval" style="color:var(--cor)">${(nv['1']||0)+(nv['2']||0)+(nv['3']||0)+(nv['4']||0)}</div><div class="ssub">niveaux 1 à 4</div></div>`;
+  } catch(e){
+    showErr('m','KPIs : '+e.message);
+    G('kpi-grid').innerHTML='<div class="eb v"><i class="ti ti-alert-circle"></i>Erreur KPIs</div>';
+  }
+}
+
+//---------
+
+async function loadCategories(){
+  const y=G('f-year').value, m=G('f-month').value;
+  let url=API+'/monitoring/categories';
+  const p=[]; if(y)p.push('year='+y); if(m)p.push('month='+m);
+  if(p.length)url+='?'+p.join('&');
+  try{
+    const data=await fetchJ(url);
+    allRows=data; populateYears(data); renderTable(data);
+    G('ts').textContent='MAJ '+new Date().toLocaleTimeString('fr-FR');
+  } catch(e){
+    showErr('d','Catégories : '+e.message);
+    G('t-body').innerHTML='<tr><td colspan="8"><div class="empty"><i class="ti ti-alert-circle"></i>Erreur de chargement</div></td></tr>';
+  }
+}
+
+function populateYears(rows){
+  const yrs=[...new Set(rows.map(r=>r.purchase_year))].sort();
+  const sel=G('f-year'),cur=sel.value;
+  sel.innerHTML='<option value="">Toutes les années</option>'+yrs.map(y=>`<option value="${y}"${y==cur?' selected':''}>${y}</option>`).join('');
+}
+
+function renderTable(rows){
+  const tb=G('t-body');
+  if(!rows.length){tb.innerHTML='<tr><td colspan="8"><div class="empty"><i class="ti ti-database-off"></i>Aucune donnée pour ces filtres</div></td></tr>';return;}
+  tb.innerHTML=rows.map(r=>`<tr>
+    <td><strong>${r.product_category_name_english}</strong></td>
+    <td>${r.purchase_year}</td><td>${MN[r.purchase_month]||r.purchase_month}</td>
+    <td>R$\u00A0${fmt(r.ca)}</td><td>${fi(r.volume)}</td>
+    <td>${(r.taux_annulation*100).toFixed(1)}%</td>
+    <td><span class="bdg b${Math.min(r.niveau,4)}">${['Normal','Vigilance','Alerte','Critique','Urgent'][r.niveau]||'Niv '+r.niveau}</span></td>
+    <td>${r.alerts_str || '-'}</td>
+  </tr>`).join('');
+}
+
+function filterTable(){
+  const q=G('s-cat').value.toLowerCase();
+  if(!q){renderTable(allRows);return;}
+  renderTable(allRows.filter(r=>r.product_category_name_english.toLowerCase().includes(q)));
+}
+
+//alertes
+
+async function loadAlerts(){
+  try{
+    const data=await fetchJ(API+'/monitoring/alerts');
+    const c=G('alerts-c');
+    if(!data.length){c.innerHTML='<div class="empty"><i class="ti ti-check"></i>Aucune alerte</div>';return;}
+    c.innerHTML='<div class="ag">'+data.map(a=>{
+      const level=Math.min(a.niveau,3);
+      const icons=['ti-alert-triangle','ti-alert-circle','ti-alert-octagon'];
+      const aws=['aw1','aw2','aw3'];
+      const labels=['Vigilance','Alerte','Critique'];
+      return `
+      <div class="ai">
+        <div class="aw ${aws[Math.min(level-1,2)]}"><i class="ti ${icons[Math.min(level-1,2)]}"></i></div>
+        <div class="am">
+          <div class="ac">${a.product_category_name_english}</div>
+          <div class="ad">${MN[a.purchase_month]||'M'+a.purchase_month} ${a.purchase_year} &bull; CA R$\u00A0${fmt(a.ca)} &bull; Vol ${fi(a.volume)} &bull; Annul. ${(a.taux_annulation*100).toFixed(1)}%</div>
+          <div class="pills"><span class="pill"><i class="ti ti-message"></i>${a.alerts_str || 'Alerte'}</span></div>
+        </div>
+        <div class="ar"><span class="bdg b${Math.min(a.niveau,2)}">${labels[Math.min(level-1,2)]||'Alerte'}</span></div>
+      </div>`}).join('')+'</div>';
+  } catch(e){
+    showErr('m','Alertes : '+e.message);
+    G('alerts-c').innerHTML='<div class="empty"><i class="ti ti-alert-circle"></i>Erreur chargement</div>';
+  }
+}
+
+//pred des categories
+async function loadPredCats(){
+  try{
+    const d=await fetchJ(API+'/prediction/categories');
+    const sel=G('f-cat');
+    sel.innerHTML='<option value="">Sélectionnez une catégorie</option>'+d.categories.map(c=>`<option value="${c}">${c}</option>`).join('');
+  } catch(e){
+    G('f-cat').innerHTML='<option value="">API non connectée</option>';
+    showErr('p','Impossible de charger les catégories');
+  }
+}
+
+
+async function runPrediction(){
+  const cat=G('f-cat').value;
+  const mois=parseInt(G('f-mois').value);
+  if(!cat){showErr('p','Veuillez sélectionner une catégorie.');return;}
+  hideErr('p'); G('pbtn').disabled=true;
+  G('pld').classList.add('v'); G('rc').classList.remove('visible');
+  try{
+    const r=await fetch(API+'/prediction/forecast',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({category:cat,mois_futur:mois})
+    });
+    const res=await r.json();
+    if(res.erreur){showErr('p',res.erreur);return;}
+    const nv=Math.min(parseInt(res.niveau_risque)||0,4);
+    const conf=res.confiance_pourcentage!=null?res.confiance_pourcentage.toFixed(0):'—';
+    const icons=['ti-circle-check','ti-alert-triangle','ti-alert-circle','ti-alert-octagon','ti-alert-octagon'];
+    const wcls=['riok','riwarn','rialert','rialert','rialert'];
+    const mcls=['mok','mwarn','malert','malert','malert'];
+    const ntxt=['Normal','Vigilance','Alerte','Critique','Urgent'];
+    G('r-cat').textContent=res.categorie||cat;
+    G('r-month').textContent='Prévision pour '+MN[mois];
+    G('r-bdg').className='bdg b'+Math.min(nv,2); 
+    G('r-bdg').textContent=(ntxt[nv]||'Niveau '+nv)+' · '+conf+'%';
+    G('r-ca').textContent='R$\u00A0'+fmt(res.ca_predit);
+    G('r-niv').textContent=conf+'%';
+    G('r-niv-sub').textContent=ntxt[nv]||'Niveau '+nv;
+    G('r-vol').textContent=fi(res.volume_estime);
+    G('r-can-s').textContent=(res.taux_annul_estime*100).toFixed(1)+'% annulation (historique)';
+    G('riw').className='riw '+wcls[nv]; G('ri').className='ti '+icons[nv];
+    G('rmsg').className='rmsg '+mcls[nv]; G('rmi').className='ti '+icons[nv];
+    G('rmt').textContent=res.message;
+    G('rc').classList.add('visible');
+  } catch(e){
+    showErr('p','Erreur prédiction : '+e.message);
+  } finally{
+    G('pbtn').disabled=false; G('pld').classList.remove('v');
+  }
+}
+
+
+
+async function runEvaluation(e){
+  e.preventDefault();
+  hideErr('e');
+  
+  const data={
+    category: G('eval-category').value,
+    purchase_month: parseInt(G('eval-month').value),
+    ca: parseFloat(G('eval-ca').value),
+    taux_annulation: parseFloat(G('eval-taux').value),
+    volume: parseFloat(G('eval-volume').value)
+  };
+  
+  G('rc-eval').classList.remove('visible');
+  
+  try{
+    const r=await fetch(API+'/prediction/forecast',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({category:data.category,mois_futur:data.purchase_month})
+    });
+    const res=await r.json();
+    if(!r.ok || res.erreur){showErr('e',res.erreur||'Erreur');return;}
+    const nv=Math.min(parseInt(res.niveau_risque)||0,4);
+    const conf=res.confiance_pourcentage!=null?res.confiance_pourcentage.toFixed(0):'—';
+    const icons=['ti-circle-check','ti-alert-triangle','ti-alert-circle','ti-alert-octagon','ti-alert-octagon'];
+    const wcls=['riok','riwarn','rialert','rialert','rialert'];
+    const mcls=['mok','mwarn','malert','malert','malert'];
+    const ntxt=['Normal','Vigilance','Alerte','Critique','Urgent'];
+    G('r-cat-e').textContent=res.categorie||data.category;
+    G('r-month-e').textContent='Évaluation pour '+MN[data.purchase_month];
+    G('r-bdg-e').className='bdg b'+Math.min(nv,2); 
+    G('r-bdg-e').textContent=(ntxt[nv]||'Niveau '+nv)+' · '+conf+'%';
+    G('r-ca-e').textContent='R$\u00A0'+fmt(data.ca);
+    G('r-growth-e').textContent=((res.ca_predit - data.ca) / (data.ca || 1) * 100).toFixed(1)+'%';
+    G('r-conf-e').textContent=conf+'%';
+    G('r-niv-sub-e').textContent=ntxt[nv]||'Niveau '+nv;
+    G('r-vol-e').textContent=fi(data.volume);
+    G('r-taux-e').textContent=(data.taux_annulation*100).toFixed(1)+'%';
+    G('r-niv-e').textContent=nv;
+    G('riw-e').className='riw '+wcls[nv]; G('ri-e').className='ti '+icons[nv];
+    G('rmsg-e').className='rmsg '+mcls[nv]; G('rmi-e').className='ti '+icons[nv];
+    G('rmt-e').textContent=res.message||'Évaluation terminée';
+    G('rc-eval').classList.add('visible');
+  } catch(err){showErr('e','Erreur : '+err.message);}
+}
+
+
+async function fetchJ(url){
+  const r=await fetch(url,{signal:AbortSignal.timeout(15000)});
+  return r.json();
+}
+
+function fmt(n){return Number(n).toLocaleString('fr-FR',{maximumFractionDigits:0});}
+function fi(n){return Math.round(n).toLocaleString('fr-FR');}
+
+function showErr(z,m){
+  const el=G('err-'+z);
+  if(el){el.classList.add('v'); const t=G('err-'+z+'-t'); if(t)t.textContent=m;}
+}
+function hideErr(z){const el=G('err-'+z);if(el)el.classList.remove('v');}
+
+// =============================================
+// INITIALISATION AUTOMATIQUE
+// =============================================
+
+window.addEventListener('DOMContentLoaded',()=>{
+
+  API='http://localhost:5000';
+  
+  // Lancer la connexion automatique
+  autoConnect();
+});
+</script>
+
+</body>
+</html>
